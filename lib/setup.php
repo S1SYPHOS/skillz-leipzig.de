@@ -27,7 +27,8 @@ function setup() {
   // Register wp_nav_menu() menus
   // http://codex.wordpress.org/Function_Reference/register_nav_menus
   register_nav_menus([
-    'primary_navigation' => __('Primary Navigation', 'sage')
+    'primary_navigation' => __('Primary Navigation', 'sage'),
+    'footer_navigation' => __('Footer Navigation', 'sage')
   ]);
 
   // Enable post thumbnails
@@ -85,6 +86,7 @@ function display_sidebar() {
     // @link https://codex.wordpress.org/Conditional_Tags
     is_404(),
     is_front_page(),
+    is_page_template('template-nominees.php'),
     is_page_template('template-custom.php'),
   ]);
 
@@ -101,6 +103,7 @@ function assets() {
     wp_enqueue_script('comment-reply');
   }
 
-  wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
+  wp_enqueue_script('isotope', Assets\asset_path('scripts/isotope.js'), ['jquery'], null, true);
+  wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery', 'isotope'], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);

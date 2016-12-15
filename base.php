@@ -18,22 +18,25 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    <div class="wrap container" role="document">
-      <div class="content row">
+    <div id="content" class="content" role="document">
+      <div class="container">
         <main class="main">
           <?php include Wrapper\template_path(); ?>
-        </main><!-- /.main -->
+        </main>
         <?php if (Setup\display_sidebar()) : ?>
           <aside class="sidebar">
             <?php include Wrapper\sidebar_path(); ?>
-          </aside><!-- /.sidebar -->
+          </aside>
         <?php endif; ?>
-      </div><!-- /.content -->
-    </div><!-- /.wrap -->
+      </div>
+    </div>
     <?php
       do_action('get_footer');
       get_template_part('templates/footer');
       wp_footer();
     ?>
+    <script type="text/javascript">
+        astro.init();
+    </script>
   </body>
 </html>
