@@ -3,7 +3,7 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  // background: $dark-gray url('/wp-content/themes/skillz/dist/images/bg.jpg') repeat;
+  background: $cream;
 }
 
 h1,
@@ -13,10 +13,20 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: modular-scale(1);
+  font-size: modular-scale(2);
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
   text-transform: uppercase;
+  color: $action-color;
+}
+
+h1:after {
+  content: '';
+  width: 40px;
+  height: 3px;
+  background: #8e211c;
+  display: block;
+  margin-top: 4px;
 }
 
 p {

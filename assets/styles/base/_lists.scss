@@ -17,3 +17,11 @@ dt {
 dd {
   margin: 0;
 }
+
+.inline-list {
+  display: flex;
+
+  li + li {
+    margin-left: 15px;
+  }
+}

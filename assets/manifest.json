@@ -2,6 +2,7 @@
   "dependencies": {
     "main.js": {
       "files": [
+        "scripts/astro.js",
         "scripts/main.js"
       ],
       "main": true
@@ -12,16 +13,19 @@
       ],
       "main": true
     },
-    "customizer.js": {
+    "custom-login.css": {
       "files": [
-        "scripts/customizer.js"
+        "styles/login.scss"
       ]
     },
     "jquery.js": {
       "bower": ["jquery"]
+    },
+    "isotope.js": {
+      "bower": ["isotope"]
     }
   },
   "config": {
-    "devUrl": "http://example.dev"
+    "devUrl": "http://dev.skillz"
   }
 }

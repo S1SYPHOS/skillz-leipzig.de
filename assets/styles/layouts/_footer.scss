@@ -1,6 +1,15 @@
-@import 'utility/_variables.scss';
-
-
 .site-footer {
-  background: $dark-grey;
+  color: #fff;
+  padding: 2em 0;
+  background: $dark-gray;
+
+  a {
+    color: #fff;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: shade(#fff, 25%);
+    }
+  }
 }

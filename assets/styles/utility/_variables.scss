@@ -26,7 +26,8 @@ $breakpoints: (
 );
 
 // Typography
-$base-font-family: 'Fira Sans', sans-serif;
+// $base-font-family: 'Fira Sans', sans-serif;
+$base-font-family: 'Pontano Sans', sans-serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -43,14 +44,17 @@ $small-spacing: $base-spacing / 1.5;
 $base-z-index: 0;
 
 // Colors
-$blue: #1565c0;
+$gold: #bf9548;
+$accent: #8e211c;
 $dark-gray: #252525;
 $medium-gray: #999;
 $light-gray: #ddd;
+$cream: #f5f6ee;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$action-color: $gold;
+$accent-color: $accent;
 
 // Border
 $base-border-color: $light-gray;
