@@ -10,12 +10,13 @@
  * @link https://github.com/roots/sage/pull/1042
  */
 $sage_includes = [
-  'lib/assets.php',    // Scripts and stylesheets
-  'lib/extras.php',    // Custom functions
-  'lib/setup.php',     // Theme setup
-  'lib/titles.php',    // Page titles
-  'lib/wrapper.php',   // Theme wrapper class
-  'lib/customizer.php' // Theme customizer
+  'lib/assets.php',       // Scripts and stylesheets
+  'lib/extras.php',       // Custom functions
+  'lib/setup.php',        // Theme setup
+  'lib/titles.php',       // Page titles
+  'lib/wrapper.php',      // Theme wrapper class
+  'lib/customizer.php',   // Theme customizer
+  'lib/skillz.php'        // SKILLZ theme functions
 ];
 
 foreach ($sage_includes as $file) {
@@ -26,37 +27,3 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
-
-/**
- * Register `team` post type
- */
-function skillz_post_type() {
-
-   // Labels
-	$labels15 = array(
-		'name' => _x("Künstler", "post type general name"),
-		'singular_name' => _x("Künstler", "post type singular name"),
-		'menu_name' => 'SKILLZ 15',
-		'add_new' => _x("Erstellen", "team item"),
-		'add_new_item' => __("Erstellen"),
-		'edit_item' => __("Bearbeiten"),
-		'new_item' => __("Neu"),
-		'view_item' => __("Anzeigen"),
-		'search_items' => __("Durchsuchen"),
-		'not_found' =>  __("Nichts gefunden"),
-		'not_found_in_trash' => __("Nichts im Papierkorb gefunden"),
-		'parent_item_colon' => ''
-	);
-
-	// Register post type
-	register_post_type('skillz-15' , array(
-		'labels' => $labels15,
-		'public' => true,
-		'has_archive' => true,
-		'menu_icon' => 'dashicons-format-audio',
-    'taxonomies' => array('category'),
-		'rewrite' => true,
-		'supports' => array('title', 'editor', 'thumbnail', 'excerpt')
-	) );
-}
-add_action( 'init', 'skillz_post_type', 0 );

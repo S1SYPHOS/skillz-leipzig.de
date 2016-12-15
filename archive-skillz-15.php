@@ -7,50 +7,69 @@
   Curabitur semper elit sed leo venenatis pulvinar. Ut quis ornare dolor.
 </p>
 
-<ul id="filters" class="filters inline-list">
-  <li><a href="#" data-filter="*">Zurücksetzen</a></li>
-	<?php
-		$terms = get_terms('category', array('parent' => '9')); // you can use any taxonomy, instead of just 'category'
-		$count = count($terms); //How many are they?
-		if ( $count > 0 ){  //If there are more than 0 terms
-			foreach ( $terms as $term ) {  //for each term:
-				echo "<li><a href='#' data-filter='.".$term->slug."'>" . $term->name . "</a></li>\n";
-				//create a list item with the current term slug for sorting, and name for label
-			}
-		}
-	?>
-</ul>
-
 <?php
-  $terms_ID_array = array();
 
-  foreach ($terms as $term) {
-    $terms_ID_array[] = $term->term_id; // Add each term's ID to an array
-  }
+function display_all_products_from_all_categories() {
 
-  $terms_ID_string = implode(',', $terms_ID_array); // Create a string with all the IDs, separated by commas
-  $args = array(
-    'post_type' => 'skillz-15',
-  );
-  $the_query = new WP_Query( $args ); // Display 50 posts that belong to the categories in the string
-?>
+//Get all the categories for Custom Post Type Product
+$args = array(
+  'post_type' => 'skillz-15',
+  'child_of' => 9,
+  'orderby' => 'id',
+  'order' => 'ASC'
+);
 
-<?php if ( $the_query->have_posts() ) : ?>
-  <div id="isotope-list">
-    <?php while ( $the_query->have_posts() ) : $the_query->the_post();
-      $termsArray = get_the_terms( $post->ID, "category" );  //Get the terms for this particular item
-      $termsString = ""; //initialize the string that will contain the terms
+$categories = get_categories( $args );
 
-      foreach ( $termsArray as $term ) { // for each term
-        $termsString .= $term->slug.' '; //create a string that has all the slugs
-      }
-	  ?>
-    <div class="<?php echo $termsString; ?> grid-item"> <?php // 'item' is used as an identifier (see Setp 5, line 6) ?>
-      <h3><?php the_title(); ?></h3>
-      <?php if ( has_post_thumbnail() ) {
-        the_post_thumbnail();
-      } ?>
+foreach ($categories as $category) { ?>
+
+  <div class="<?php echo $category->slug; ?>">
+    <!-- Get the category title -->
+    <h3 class="title"><?php echo $category->name; ?></h3>
+
+    <!-- Get the category description -->
+    <div class="description">
+    <p><?php echo category_description( get_category_by_slug($category->slug)->term_id ); ?></p>
     </div>
-    <?php endwhile;  ?>
+
+    <ul class="mhc-product-grid">
+
+    <?php
+
+    // Get all the products of each specific category
+    $product_args = array(
+      // 'post_type'     => 'product',
+      'orderby'      => 'id',
+      'order'         => 'ASC',
+      'post_status'   => 'publish',
+      'category_name' => $category->slug // passing the slug of the current category
+    );
+
+    $product_list = new WP_Query ( $product_args ); ?>
+
+    <?php while ( $product_list -> have_posts() ) : $product_list -> the_post(); ?>
+
+      <li class="grid-item">
+        <a href="<?php the_permalink(); ?>" class="product-link">
+
+          <!-- if the post has an image, show it -->
+          <?php if( has_post_thumbnail() ) : ?>
+            <?php the_post_thumbnail( 'full', array( 'class' => 'img', 'alt' => get_the_title() ) ); ?>
+          <?php endif; ?>
+
+          <!-- custom fields: product_flavor, product_description ... -->
+          <h3 class="title <?php the_field( 'product_flavor' ); ?>"><?php the_title(); ?></h3>
+          <p class="description"><?php the_field( 'product_description' ); ?></p>
+        </a>
+      </li>
+
+    <?php endwhile; wp_reset_query(); ?>
+
+    </ul>
   </div>
-<?php endif; ?>
+
+  <?php
+  }
+} ?>
+
+<?php display_all_products_from_all_categories(); ?>
