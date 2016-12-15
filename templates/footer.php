@@ -33,12 +33,12 @@
         <ul class="inline-list">
           <li>
             <a href="http://www.backspin.de/tag/skillz-awards/" target="_blank">
-              <img src="/wp-content/themes/skillz/dist/images/backspin.png" height="45" alt="">
+              <img src="/wp-content/themes/skillz/dist/images/backspin.png" width="84" height="40" alt="">
             </a>
           </li>
           <li>
             <a href="http://www.radioblau.de" target="_blank">
-              <img src="/wp-content/themes/skillz/dist/images/radioblau.png" height="45" alt="">
+              <img src="/wp-content/themes/skillz/dist/images/radioblau.png" width="86" height="40" alt="">
             </a>
           </li>
         </ul>

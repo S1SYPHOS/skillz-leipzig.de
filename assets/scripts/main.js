@@ -1,19 +1,20 @@
-jQuery(function ($) {
+jQuery(window).load(function() {
 
 
 // isotope init
-var $container = $('#isotope-list'); //The ID for the list with all the blog posts
+var $container = jQuery('#isotope-list'); //The ID for the list with all the blog posts
 $container.isotope({ //Isotope options, 'item' matches the class in the PHP
-itemSelector : '.item',
+itemSelector : '.grid-item',
+percentPosition: true,
 layoutMode : 'fitRows'
 });
 
 //Add the class selected to the item that is clicked, and remove from the others
-var $optionSets = $('#filters'),
+var $optionSets =jQuery('#filters'),
 $optionLinks = $optionSets.find('a');
 
 $optionLinks.click(function(){
-var $this = $(this);
+var $this = jQuery(this);
 // don't proceed if already selected
 if ( $this.hasClass('selected') ) {
 return false;
@@ -23,13 +24,14 @@ $optionSets.find('.selected').removeClass('selected');
 $this.addClass('selected');
 
 //When an item is clicked, sort the items.
-var selector = $(this).attr('data-filter');
+var selector = jQuery(this).attr('data-filter');
 $container.isotope({ filter: selector });
 
 return false;
 });
+});
 
-
+jQuery(function ($) {
 
 // smooth scroll
 $('a[href*="#"]:not([href="#"])').click(function() {

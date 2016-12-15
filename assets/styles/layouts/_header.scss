@@ -34,26 +34,30 @@
 .call-to-vote {
   display: none;
 
-  .home & {
+  @include min-width(medium) {
     display: block;
   }
 
-  @include min-width(medium) {
+  .home & {
     display: block;
   }
 
   .btn {
     display: table;
-    position: absolute;
-    bottom: 2em;
-    left: 50%;
-    margin-left: -74px;
+
+    .home & {
+      position: absolute;
+      bottom: 2em;
+      left: 50%;
+      margin-left: -74px;
+    }
   }
 }
 
 .header-nav {
 
   .nav-menu.active & {
+    
     @include max-width(mediumMax) {
       flex-direction: column;
       align-items: center;

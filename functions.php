@@ -30,13 +30,13 @@ unset($file, $filepath);
 /**
  * Register `team` post type
  */
-function team_post_type() {
+function skillz_post_type() {
 
    // Labels
-	$labels = array(
+	$labels15 = array(
 		'name' => _x("Künstler", "post type general name"),
 		'singular_name' => _x("Künstler", "post type singular name"),
-		'menu_name' => 'SKILLZ 16',
+		'menu_name' => 'SKILLZ 15',
 		'add_new' => _x("Erstellen", "team item"),
 		'add_new_item' => __("Erstellen"),
 		'edit_item' => __("Bearbeiten"),
@@ -49,14 +49,14 @@ function team_post_type() {
 	);
 
 	// Register post type
-	register_post_type('skillz16' , array(
-		'labels' => $labels,
+	register_post_type('skillz-15' , array(
+		'labels' => $labels15,
 		'public' => true,
-		'has_archive' => false,
+		'has_archive' => true,
 		'menu_icon' => 'dashicons-format-audio',
-      'taxonomies' => array('category'),
+    'taxonomies' => array('category'),
 		'rewrite' => true,
 		'supports' => array('title', 'editor', 'thumbnail', 'excerpt')
 	) );
 }
-add_action( 'init', 'team_post_type', 0 );
+add_action( 'init', 'skillz_post_type', 0 );

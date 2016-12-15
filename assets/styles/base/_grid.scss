@@ -20,10 +20,16 @@
   // }
 }
 
-.mbl {
-  margin-bottom: $base-spacing;
-}
+.grid-item {
+  width: 100%;
+  padding: $base-spacing 0;
 
-.gallery-item {
-  @include gallery(2 of 6);
+  @include min-width(small) {
+    width: span(2 of 4) - 3%;
+    margin: 0 2%;
+  }
+
+  @include min-width(medium) {
+    width: span(3 of 9) - 3%;
+  }
 }
