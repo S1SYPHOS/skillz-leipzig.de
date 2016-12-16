@@ -4,72 +4,66 @@
 <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue.
   In dictum nunc a nibh tincidunt, vel maximus elit accumsan. Fusce porttitor erat turpis, euismod consequat mauris suscipit ut.
-  Curabitur semper elit sed leo venenatis pulvinar. Ut quis ornare dolor.
+  Curabitur semper elit sed	 leo venenatis pulvinar. Ut quis ornare dolor.
 </p>
 
 <?php
 
-function display_all_products_from_all_categories() {
-
-//Get all the categories for Custom Post Type Product
-$args = array(
+$cat_args=array(
   'post_type' => 'skillz-15',
-  'child_of' => 9,
-  'orderby' => 'id',
+  'orderby' => 'name',
   'order' => 'ASC'
 );
+$categories = get_categories($cat_args);
 
-$categories = get_categories( $args );
+foreach($categories as $category) {
 
-foreach ($categories as $category) { ?>
+  $args=array(
+    'post_type' => 'skillz-15',
+    'meta_key' => 'votes-' . $category->slug,
+    'orderby' => 'meta_value_num',
+    'order' => 'DESC',
+    'posts_per_page' => '5',
+    'category__in' => array($category->term_id),
+  );
+  $posts = get_posts($args);
+  $postnum = 0;
 
-  <div class="<?php echo $category->slug; ?>">
-    <!-- Get the category title -->
-    <h3 class="title"><?php echo $category->name; ?></h3>
-
-    <!-- Get the category description -->
-    <div class="description">
-    <p><?php echo category_description( get_category_by_slug($category->slug)->term_id ); ?></p>
-    </div>
-
-    <ul class="mhc-product-grid">
+  if ($posts) : ?>
+    <h2>
+      <?php echo $category->name ?>
+    </h2>
 
     <?php
+    foreach($posts as $post) {
+      setup_postdata($post);
+      if( $postnum == 0 ) : ?>
 
-    // Get all the products of each specific category
-    $product_args = array(
-      // 'post_type'     => 'product',
-      'orderby'      => 'id',
-      'order'         => 'ASC',
-      'post_status'   => 'publish',
-      'category_name' => $category->slug // passing the slug of the current category
-    );
+      <div class="entry">
+        <?php the_post_thumbnail(); ?>
+        <h2 class="pagetitle">
+          <p>Platz <?php $postnum++; echo $postnum; ?></p>
+          <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+        </h2>
+        <?php the_excerpt(); ?>
+        <?php the_field('votes-' . $category->slug) ?>
+      </div>
+      <div class="two-to-five">
 
-    $product_list = new WP_Query ( $product_args ); ?>
+      <?php else : ?>
 
-    <?php while ( $product_list -> have_posts() ) : $product_list -> the_post(); ?>
+      <div class="grid-item">
+        <?php the_post_thumbnail('medium'); ?>
+        <h2 class="pagetitle">
+          <p>Platz <?php $postnum++; echo $postnum; ?></p>
+          <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+        </h2>
+        <?php the_excerpt(); ?>
+        <?php the_field('votes-' . $category->slug) ?>
+      </div>
 
-      <li class="grid-item">
-        <a href="<?php the_permalink(); ?>" class="product-link">
-
-          <!-- if the post has an image, show it -->
-          <?php if( has_post_thumbnail() ) : ?>
-            <?php the_post_thumbnail( 'full', array( 'class' => 'img', 'alt' => get_the_title() ) ); ?>
-          <?php endif; ?>
-
-          <!-- custom fields: product_flavor, product_description ... -->
-          <h3 class="title <?php the_field( 'product_flavor' ); ?>"><?php the_title(); ?></h3>
-          <p class="description"><?php the_field( 'product_description' ); ?></p>
-        </a>
-      </li>
-
-    <?php endwhile; wp_reset_query(); ?>
-
-    </ul>
-  </div>
-
-  <?php
-  }
+      <?php endif; ?>
+      </div>
+    <?php }
+  endif;
 } ?>
-
-<?php display_all_products_from_all_categories(); ?>

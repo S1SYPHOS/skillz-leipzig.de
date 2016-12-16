@@ -10,7 +10,7 @@
 <ul id="filters" class="filters inline-list">
   <li><a href="#" data-filter="*">Zurücksetzen</a></li>
 	<?php
-		$terms = get_terms('category', array('parent' => '9')); // you can use any taxonomy, instead of just 'category'
+		$terms = get_terms('category', array('parent' => '9')); // LIVE = 75 // you can use any taxonomy, instead of just 'category'
 		$count = count($terms); //How many are they?
 		if ( $count > 0 ){  //If there are more than 0 terms
 			foreach ( $terms as $term ) {  //for each term:
@@ -30,7 +30,7 @@
 
   $terms_ID_string = implode(',', $terms_ID_array); // Create a string with all the IDs, separated by commas
   $args = array(
-    'post_type' => 'skillz-15',
+    'post_type' => 'skillz-16',
   );
   $the_query = new WP_Query( $args ); // Display 50 posts that belong to the categories in the string
 ?>
