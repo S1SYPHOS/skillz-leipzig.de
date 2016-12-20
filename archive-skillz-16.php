@@ -31,6 +31,8 @@
   $terms_ID_string = implode(',', $terms_ID_array); // Create a string with all the IDs, separated by commas
   $args = array(
     'post_type' => 'skillz-16',
+    'orderby' => 'name',
+    'order' => 'ASC'
   );
   $the_query = new WP_Query( $args ); // Display 50 posts that belong to the categories in the string
 ?>
@@ -45,12 +47,10 @@
         $termsString .= $term->slug.' '; //create a string that has all the slugs
       }
 	  ?>
-    <div class="<?php echo $termsString; ?> grid-item"> <?php // 'item' is used as an identifier (see Setp 5, line 6) ?>
+    <a class="<?php echo $termsString; ?> grid-item" href="<?php the_permalink() ?>"> <?php // 'item' is used as an identifier (see Setp 5, line 6) ?>
       <h3><?php the_title(); ?></h3>
-      <?php if ( has_post_thumbnail() ) {
-        the_post_thumbnail();
-      } ?>
-    </div>
+      <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+    </a>
     <?php endwhile;  ?>
   </div>
 <?php endif; ?>

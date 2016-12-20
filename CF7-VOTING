@@ -1,0 +1,92 @@
+<div class="voting-block">
+<h2>Album '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text Album placeholder "Album '16"]
+</div>
+
+<div class="voting-block">
+<h2>Artwork '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text Artwork placeholder "Artwork '16"]
+</div>
+
+<div class="voting-block">
+<h2>DJ '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text DJ placeholder "DJ '16"]
+</div>
+
+<div class="voting-block">
+<h2>EP '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text EP placeholder "EP '16"]
+</div>
+
+<div class="voting-block">
+<h2>Künstler '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text Kuenstler placeholder "Künstler '16"]
+</div>
+
+<div class="voting-block">
+<h2>Liveact '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text Liveact placeholder "Liveact '16"]
+</div>
+
+<div class="voting-block">
+<h2>Producer / Beatmaker '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text Producer / Beatmaker placeholder "Producer / Beatmaker '16"]
+</div>
+
+<div class="voting-block">
+<h2>Props aus Leipzig '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text Props aus Leipzig placeholder "Props aus Leipzig '16"]
+</div>
+
+<div class="voting-block">
+<h2>Punchline (Organisatorenpreis) '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text Punchline (Organisatorenpreis) placeholder "Punchline (Organisatorenpreis) '16"]
+</div>
+
+<div class="voting-block">
+<h2>Track '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text Track placeholder "Track '16"]
+</div>
+
+<div class="voting-block">
+<h2>Veranstaltung '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text Veranstaltung placeholder "Veranstaltung '16"]
+</div>
+
+<div class="voting-block">
+<h2>Video '16</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[text Video placeholder "Video '16"]
+</div>
+
+<div class="voting-block">
+<h2 class="c--red">Danke!</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+
+[email* E-Mail placeholder "Deine E-Mail-Adresse"]
+
+[submit "Abschicken"]
+</div>

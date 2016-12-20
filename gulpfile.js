@@ -135,7 +135,7 @@ var jsTasks = function(filename) {
         compress: {
           'drop_debugger': enabled.stripJSDebug
         }
-      }))
+      }));
     })
     // .pipe(uglify, {
     //   compress: {
@@ -236,7 +236,7 @@ gulp.task('jshint', function() {
   ].concat(project.js))
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'))
-    .pipe(gulpif(enabled.failJSHint, jshint.reporter('fail')));
+    // .pipe(gulpif(enabled.failJSHint, jshint.reporter('fail')));
 });
 
 // ### Clean

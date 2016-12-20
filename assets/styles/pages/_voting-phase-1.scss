@@ -1,0 +1,17 @@
+.voting-block {
+  margin: 3 * $base-spacing 0;
+
+  &,
+  input {
+    text-align: center;
+  }
+
+  input:not([type="submit"]) {
+    font-size: 1.5rem;
+    border-color: $action-color;
+
+    &:hover {
+      border-color: shade($action-color, 25%);
+    }
+  }
+}

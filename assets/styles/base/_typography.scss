@@ -13,9 +13,10 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: modular-scale(2);
+  font-size: 2.5rem; // 40px
+  font-weight: 400;
   line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
+  margin: 0 0 1rem;
   text-transform: uppercase;
   color: $action-color;
 }
@@ -23,14 +24,14 @@ h6 {
 h1:after {
   content: '';
   width: 40px;
-  height: 3px;
-  background: #8e211c;
+  height: 2px;
+  background: $accent-color;
   display: block;
   margin-top: 4px;
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin: 0 0 2 * $small-spacing;
 }
 
 a {
