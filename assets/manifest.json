@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "main.js": {
+      "bower": ["isotope"],
       "files": [
         "scripts/astro.js",
         "scripts/main.js"
@@ -20,9 +21,6 @@
     },
     "jquery.js": {
       "bower": ["jquery"]
-    },
-    "isotope.js": {
-      "bower": ["isotope"]
     }
   },
   "config": {

@@ -14,4 +14,8 @@
       border-color: shade($action-color, 25%);
     }
   }
+
+  input[type="submit"] {
+    margin: 0 auto;
+  }
 }

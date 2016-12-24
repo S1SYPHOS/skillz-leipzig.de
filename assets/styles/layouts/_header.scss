@@ -57,7 +57,7 @@
 .header-nav {
 
   .nav-menu.active & {
-    
+
     @include max-width(mediumMax) {
       flex-direction: column;
       align-items: center;
@@ -78,6 +78,12 @@
   visibility: visible;
   z-index: $base-z-index + 100;
   position: relative;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: transparent;
+  }
 
   @include min-width(medium) {
     display: none;
@@ -101,6 +107,7 @@
       width: 100%;
       background: linear-gradient(#250101 0%, #320200 25%, #250101 75%);
       z-index: $base-z-index + 50;
+      overflow: hidden;
     }
   }
 }

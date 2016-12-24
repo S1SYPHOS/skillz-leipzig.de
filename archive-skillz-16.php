@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h1>Skillz '16 - Künstler</h1>
+  <h1>Skillz '16 - Die Nominierten</h1>
 </div>
 <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue.
@@ -7,7 +7,7 @@
   Curabitur semper elit sed leo venenatis pulvinar. Ut quis ornare dolor.
 </p>
 
-<ul id="filters" class="filters inline-list">
+<ul id="filters" class="filters">
   <li><a href="#" data-filter="*">Zurücksetzen</a></li>
 	<?php
 		$terms = get_terms('category', array('parent' => '9')); // LIVE = 75 // you can use any taxonomy, instead of just 'category'

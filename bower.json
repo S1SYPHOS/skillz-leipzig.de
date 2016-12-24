@@ -9,7 +9,8 @@
   "dependencies": {
     "jquery": "^3.1.1",
     "susy": "^2.2.12",
-    "isotope": "^3.0.1"
+    "isotope": "^3.0.1",
+    "smoothstate": "^0.7.2"
   },
   "overrides": {
     "isotope": {

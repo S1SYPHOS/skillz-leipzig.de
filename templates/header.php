@@ -6,7 +6,7 @@
       </a>
     </div>
     <div class="call-to-vote">
-      <a class="btn" href="<?php if( is_front_page() ) : ?>#content<?php else : ?><?= esc_url(home_url('/#content')); ?><?php endif; ?>" >zum Voting</a>
+      <a class="btn" href="<?php if( is_front_page() ) : ?>#hier-gehts-zum-voting<?php else : ?><?= esc_url(home_url('/#hier-gehts-zum-voting')); ?><?php endif; ?>" >zum Voting</a>
     </div>
     <nav class="nav-wrap nav-collapse">
       <!-- <a class="nav-toggle"  href="#"><span></span></a> -->

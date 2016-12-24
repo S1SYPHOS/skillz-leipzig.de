@@ -18,7 +18,7 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    <div id="content" class="content" role="document">
+    <div <?php if (is_front_page()) : ?> id="hier-gehts-zum-voting"<?php endif; ?> class="content" role="document">
       <div class="container">
         <main class="main">
           <?php include Wrapper\template_path(); ?>
