@@ -43,6 +43,10 @@ a img {
   }
 }
 
+.wp-post-image {
+  margin: 0 0 2 * $small-spacing;
+}
+
 .wp-caption {
   background: #fff;
   border: 1px solid #f0f0f0;

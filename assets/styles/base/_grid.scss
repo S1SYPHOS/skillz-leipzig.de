@@ -21,15 +21,47 @@
 }
 
 .grid-item {
-  width: 100%;
-  padding: $base-spacing 0;
+  width: 210px;
+  height: 210px;
 
-  @include min-width(small) {
-    width: span(2 of 4) - 3%;
-    margin: 0 2%;
+  @include min-width(large) {
+    width: 220px;
+    height: 220px;
   }
 
-  @include min-width(medium) {
-    width: span(3 of 9) - 3%;
+  img {
+    margin: 0;
+  }
+
+  figure {
+    position: relative;
+    overflow: hidden;
+    // display: inline-block;
+    margin: 5px;
+
+    @include min-width(large) {
+      margin: 10px;
+    }
+  }
+
+  figcaption {
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    width: 200px;
+    left: 0;
+    bottom: 0;
+    transform: translate3d(0, 100%, 0);
+    backface-visibility: hidden;
+    transition: transform $base-duration $base-timing;
+    padding: 0.5rem;
+    display: table-caption;
+    caption-side: bottom;
+    background: rgba(0,0,0,0.5);
+
+  }
+
+  &:hover figcaption {
+    transform: translate3d(0, 0, 0);
   }
 }

@@ -7,6 +7,7 @@
     <div class="entry-content">
       <?php if ( has_post_thumbnail() ) { the_post_thumbnail('large'); } ?>
       <?php the_content(); ?>
+      PORTRAIT!
     </div>
     <footer>
       <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>

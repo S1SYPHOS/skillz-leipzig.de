@@ -13,7 +13,6 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: 2.5rem; // 40px
   font-weight: 400;
   line-height: $heading-line-height;
   margin: 0 0 1rem;
@@ -21,13 +20,28 @@ h6 {
   color: $action-color;
 }
 
-h1:after {
-  content: '';
-  width: 40px;
-  height: 2px;
-  background: $accent-color;
-  display: block;
-  margin-top: 4px;
+h1 {
+  font-size: 2.5rem; // 40px
+
+  &:after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background: $accent-color;
+    display: block;
+    margin-top: 4px;
+  }
+}
+
+h2 {
+  font-size: 2rem; // 32px
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.5rem; // 24px
 }
 
 p {

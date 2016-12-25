@@ -5,8 +5,11 @@ jQuery(window).load(function() {
 var $container = jQuery('#isotope-list'); //The ID for the list with all the blog posts
 $container.isotope({ //Isotope options, 'item' matches the class in the PHP
 itemSelector : '.grid-item',
-percentPosition: true,
-layoutMode : 'fitRows'
+// percentPosition: true,
+layoutMode : 'fitRows',
+// fitRows: {
+//   gutter: 15
+// }
 });
 
 //Add the class selected to the item that is clicked, and remove from the others
@@ -33,19 +36,22 @@ return false;
 
 jQuery(function ($) {
 
-// smooth scroll
-$('a[href*="#"]:not([href="#"])').click(function() {
-  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-    var target = $(this.hash);
-    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-    if (target.length) {
-      $('html, body').animate({
-        scrollTop: target.offset().top
-      }, 750);
-      return false;
+
+
+
+  // smooth scroll
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 750);
+        return false;
+      }
     }
-  }
-});
+  });
 
 
 

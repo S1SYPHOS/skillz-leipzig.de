@@ -22,43 +22,13 @@ body {
 
 .container {
   @include container;
-  @include pad(20px);
+  // @include pad(20px);
+
+  @include min-width(medium) {
+    max-width: 640px;
+  }
 
   @include min-width(large) {
     max-width: 960px;
-  }
-}
-
-.zoom {
-  display: block;
-  overflow: hidden;
-  position: relative;
-
-  img {
-    transition: transform $base-duration + 50ms ease-out;
-    width: 100%;
-
-    &:hover {
-      transform: scale(1.05);
-    }
-  }
-}
-
-.entry-content-asset {
-  position: relative;
-  width: 100%;
-  padding: 58.9474% 0 0 0;
-  margin-bottom: $small-spacing;
-  overflow: hidden;
-
-  iframe,
-  object,
-  embed,
-  video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   }
 }

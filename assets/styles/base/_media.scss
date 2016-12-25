@@ -9,3 +9,40 @@ picture {
   height: auto;
   vertical-align: middle;
 }
+
+// custom
+
+.zoom {
+  display: table;
+  overflow: hidden;
+  position: relative;
+  margin: 0 0 2 * $small-spacing;
+
+  img {
+    transition: transform $base-duration + 50ms ease-out;
+    margin: 0;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.entry-content-asset {
+  position: relative;
+  width: 100%;
+  padding: 58.9474% 0 0 0;
+  margin-bottom: $small-spacing;
+  overflow: hidden;
+
+  iframe,
+  object,
+  embed,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

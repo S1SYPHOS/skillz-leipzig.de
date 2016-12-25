@@ -18,16 +18,16 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    <div <?php if (is_front_page()) : ?> id="hier-gehts-zum-voting"<?php endif; ?> class="content" role="document">
+    <div <?php if (is_front_page()) : ?> id="hier-gehts-zum-voting"<?php endif; ?> class="site-content" role="document">
       <div class="container">
-        <main class="main">
+        <main class="content-wrap">
           <?php include Wrapper\template_path(); ?>
         </main>
-        <?php if (Setup\display_sidebar()) : ?>
+        <!-- <?php if (Setup\display_sidebar()) : ?>
           <aside class="sidebar">
             <?php include Wrapper\sidebar_path(); ?>
           </aside>
-        <?php endif; ?>
+        <?php endif; ?> -->
       </div>
     </div>
     <?php

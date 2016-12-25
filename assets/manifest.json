@@ -1,9 +1,12 @@
 {
   "dependencies": {
     "main.js": {
-      "bower": ["isotope"],
+      "bower": [
+        "astro",
+        "isotope",
+        "smoothstate"
+      ],
       "files": [
-        "scripts/astro.js",
         "scripts/main.js"
       ],
       "main": true

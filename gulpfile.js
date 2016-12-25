@@ -235,7 +235,7 @@ gulp.task('jshint', function() {
     'bower.json', 'gulpfile.js'
   ].concat(project.js))
     .pipe(jshint())
-    .pipe(jshint.reporter('jshint-stylish'))
+    .pipe(jshint.reporter('jshint-stylish'));
     // .pipe(gulpif(enabled.failJSHint, jshint.reporter('fail')));
 });
 
