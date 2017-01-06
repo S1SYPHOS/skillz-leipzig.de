@@ -7,6 +7,7 @@
  * @link https://github.com/roots/sage/pull/1042
  */
 
+
 function skillz_post_type() {
 
     // Labels SKILLZ '15
@@ -66,3 +67,32 @@ function skillz_post_type() {
 }
 
 add_action( 'init', 'skillz_post_type', 0 );
+
+
+// Order get_adjacent_post alphabetically
+// http://wordpress.stackexchange.com/questions/166932/how-to-get-next-and-previous-post-links-alphabetically-by-title-across-post-ty/166933#166933
+function filter_next_post_sort($sort) {
+  $sort = "ORDER BY p.post_title ASC LIMIT 1";
+  return $sort;
+}
+
+function filter_next_post_where($where) {
+  global $post, $wpdb;
+  return $wpdb->prepare("WHERE p.post_title > '%s' AND p.post_type = '". get_post_type($post)."' AND p.post_status = 'publish'",$post->post_title);
+}
+
+function filter_previous_post_sort($sort) {
+  $sort = "ORDER BY p.post_title DESC LIMIT 1";
+  return $sort;
+}
+
+function filter_previous_post_where($where) {
+  global $post, $wpdb;
+  return $wpdb->prepare("WHERE p.post_title < '%s' AND p.post_type = '". get_post_type($post)."' AND p.post_status = 'publish'",$post->post_title);
+}
+
+add_filter('get_next_post_sort',   'filter_next_post_sort');
+add_filter('get_next_post_where',  'filter_next_post_where');
+
+add_filter('get_previous_post_sort',  'filter_previous_post_sort');
+add_filter('get_previous_post_where', 'filter_previous_post_where');

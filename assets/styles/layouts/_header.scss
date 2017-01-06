@@ -4,10 +4,9 @@
   background-size: cover;
 
   .home & {
-    padding-bottom: 0;
-    background: url('/wp-content/themes/skillz/dist/images/character.png') no-repeat center center, radial-gradient(circle, #250101 0%, #320200 25%, #250101 75%);
+    background: url('/wp-content/themes/skillz/dist/images/character.png') no-repeat top center, radial-gradient(circle, #250101 0%, #320200 25%, #250101 75%);
     height: 100%;
-    background-size: cover;
+    flex: 1 0 auto;
   }
 
   .container {
@@ -18,10 +17,6 @@
 
     @include min-width(large) {
       max-width: 960px;
-    }
-
-    &:after {
-      display: none;
     }
   }
 }

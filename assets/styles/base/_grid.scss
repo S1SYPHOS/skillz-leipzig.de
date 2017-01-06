@@ -36,7 +36,6 @@
   figure {
     position: relative;
     overflow: hidden;
-    // display: inline-block;
     margin: 5px;
 
     @include min-width(large) {

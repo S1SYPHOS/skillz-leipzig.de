@@ -15,5 +15,45 @@
 }
 
 .supporters p {
-  margin-bottom: $small-spacing;
+  margin-bottom: 0.5 * $small-spacing;
+}
+
+.supporter {
+  background-image: url('/wp-content/themes/skillz/dist/images/footer/supporters.png');
+  background-repeat: no-repeat;
+  display: block;
+  transition: opacity $base-duration $base-timing;
+
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 0.8;
+  }
+
+  .collective & {
+    width: 94px;
+    height: 45px;
+  }
+
+  .companions & {
+    width: 83px;
+    height: 40px;
+  }
+
+  &.itsyours {
+    background-position: 0 0;
+  }
+
+  &.raputation {
+    background-position: 0 -85px;
+  }
+
+  &.rapcircus {
+    background-position: 0 -45px;
+  }
+
+  &.sinntraeger {
+    background-position: 0 -130px;
+    width: 119px;
+  }
 }

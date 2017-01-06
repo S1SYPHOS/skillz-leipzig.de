@@ -6,19 +6,14 @@
   border-radius: $base-border-radius;
   color: #fff;
   cursor: pointer;
-  // display: inline-block;
   font-family: $base-font-family;
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
   display: block;
-  padding: $small-spacing $base-spacing;
-  // text-align: center;
-  // text-decoration: none;
+  padding: .75em 1.25em;
   transition: background-color $base-duration $base-timing;
   user-select: none;
-  // vertical-align: middle;
-  // white-space: nowrap;
 
   &:active,
   &:focus,

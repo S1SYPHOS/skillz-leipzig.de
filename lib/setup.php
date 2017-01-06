@@ -17,6 +17,7 @@ function setup() {
   add_theme_support('soil-relative-urls');
   add_theme_support('soil-google-analytics', 'UA-89033409-1', 'wp_footer');
 
+
   // Make theme available for translation
   // Community translations can be found at https://github.com/roots/sage-translations
   load_theme_textdomain('sage', get_template_directory() . '/lang');

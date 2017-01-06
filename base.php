@@ -18,18 +18,16 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    <div <?php if (is_front_page()) : ?> id="hier-gehts-zum-voting"<?php endif; ?> class="site-content" role="document">
-      <div class="container">
-        <main class="content-wrap">
-          <?php include Wrapper\template_path(); ?>
-        </main>
+    <main <?php if (is_front_page()) : ?> id="hier-gehts-zum-voting"<?php endif; ?> class="site-content">
+      <div class="container fadeIn">
+        <?php include Wrapper\template_path(); ?>
         <!-- <?php if (Setup\display_sidebar()) : ?>
           <aside class="sidebar">
             <?php include Wrapper\sidebar_path(); ?>
           </aside>
         <?php endif; ?> -->
       </div>
-    </div>
+    </main>
     <?php
       do_action('get_footer');
       get_template_part('templates/footer');

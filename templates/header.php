@@ -2,7 +2,7 @@
   <div class="container">
     <div class="logo">
       <a class="brand" href="<?= esc_url(home_url('/')); ?>" title="<?php bloginfo('name'); ?>">
-        <img src="/wp-content/themes/skillz/dist/images/logo.png" alt="">
+        <img src="/wp-content/themes/skillz/dist/images/logo.png" alt="" width="232" height="170">
       </a>
     </div>
     <div class="call-to-vote">

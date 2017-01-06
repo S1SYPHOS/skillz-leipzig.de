@@ -1,12 +1,9 @@
 .filters {
   display: flex;
   flex-wrap: wrap;
-  // display: table;
-  // width: 100%;
 
   li {
     margin: 0 5px 10px;
-    // display: inline-block;
 
     a {
       display: block;
@@ -20,7 +17,5 @@
         background: $accent-color;
       }
     }
-    // display: table;
-    // font-size: 14px;
   }
 }

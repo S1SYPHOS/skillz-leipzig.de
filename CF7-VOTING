@@ -1,90 +1,89 @@
 <div class="voting-block">
 <h2>Album '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Jurykategorie. Nennt uns eure Alben, die von Künstlern aus Leipzig plus nähere Umgebung im Jahre 2016 herausgebracht wurden.</p>
 
 [text Album placeholder "Album '16"]
 </div>
 
 <div class="voting-block">
 <h2>Artwork '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Jurykategorie. Nennt uns eure Layouts, die Projekten (LP's / EP's / Mixtapes) zuzuordnen sind, welche von Künstlern aus Leipzig plus nähere Umgebung im Jahre 2016 herausgebracht wurden.</p>
 
 [text Artwork placeholder "Artwork '16"]
 </div>
 
 <div class="voting-block">
 <h2>DJ '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Publikumskategorie. Welche DJ's, aus Leipzig plus nähere Umgebung haben Euch 2016 am Besten bedient?</p>
 
 [text DJ placeholder "DJ '16"]
 </div>
 
 <div class="voting-block">
 <h2>EP '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Jurykategorie. Nennt uns eure EP's, die von Künstlern aus Leipzig plus nähere Umgebung im Jahre 2016 herausgebracht wurden.</p>
 
 [text EP placeholder "EP '16"]
 </div>
 
 <div class="voting-block">
 <h2>Künstler '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Jurykategorie. Nennt uns euren Künstlern aus Leipzig plus nähere Umgebung, der Euch mit seinen Aktivitäten 2016 am Meisten getroffen hat.</p>
 
 [text Kuenstler placeholder "Künstler '16"]
 </div>
 
 <div class="voting-block">
 <h2>Liveact '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Publikumskategorie. Welche Künstler aus Leipzig plus nähere Umgebung haben Euch auf der Bühne am besten gefallen?</p>
 
 [text Liveact placeholder "Liveact '16"]
 </div>
 
 <div class="voting-block">
 <h2>Producer / Beatmaker '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Jurykategorie. Welche Produzenten aus Leipzig plus nähere Umgebung, haben Euch mit seinen Aktivitäten 2016 am meisten geflasht?</p>
 
 [text Producer / Beatmaker placeholder "Producer / Beatmaker '16"]
 </div>
 
 <div class="voting-block">
 <h2>Props aus Leipzig '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Publikumskategorie. Nach Leipzig führen viele Freundschaften rein und raus. Welche Künstler aus den neuen Bundesländern feiert ihr, die etwas Leipzig-Bezug aufzeigen? Sei es, dass ihre Wege 2016 live zu uns führten oder Zusammenarbeiten mit Leipziger Künstlern stattfanden.</p>
 
 [text Props placeholder "Props aus Leipzig '16"]
 </div>
 
 <div class="voting-block">
 <h2>Punchline (Organisatorenpreis) '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Diese Kategorie hüpft aus der Reihe, da die Entscheidungsgewalt hier vollständig bei uns liegt. Wir brauchen dennoch euer gutes Gedächtnis. Schreibt uns bitte eure besten Punchlines, die von Künstlern aus Leipzig plus nähere Umgebung veräußert worden.</p>
 
 [text Punchline placeholder "Punchline (Organisatorenpreis) '16"]
 </div>
 
 <div class="voting-block">
 <h2>Track '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Jurykategorie. Nennt uns in 2016 veröffentlichte Tracks von Künstlern aus Leipzig plus nähere Umgebung, die Euch den Atem geraubt haben.</p>
 
 [text Track placeholder "Track '16"]
 </div>
 
 <div class="voting-block">
 <h2>Veranstaltung '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Publikumskategorie. Ihr wart vor Ort. Auf welchen Veranstaltungen in 2016 hat Rap in Leipzig plus nähere Umgebung hat Rap für Euch am Meisten gelebt?</p>
 
 [text Veranstaltung placeholder "Veranstaltung '16"]
 </div>
 
 <div class="voting-block">
 <h2>Video '16</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
+<p>Jurykategorie. Nennt uns in 2016 veröffentlichten Musik-Videos von Künstlern aus Leipzig plus nähere Umgebung, die für Euch unverzichtbar waren.</p>
 
 [text Video placeholder "Video '16"]
 </div>
 
 <div class="voting-block">
 <h2 class="c--red">Danke!</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue. In dictum nunc a nibh tincidunt, vel maximus elit accumsan.</p>
 
 [email* E-Mail placeholder "Deine E-Mail-Adresse"]
 

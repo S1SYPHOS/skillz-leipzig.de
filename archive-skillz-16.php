@@ -1,26 +1,26 @@
-<div class="scene_element scene_element--fadein">
+<div class="scene_element scene_">
   <div class="page-header">
     <h1>Skillz '16 - Die Nominierten</h1>
   </div>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum lacus eget luctus bibendum. Ut tempus vestibulum congue.
-    In dictum nunc a nibh tincidunt, vel maximus elit accumsan. Fusce porttitor erat turpis, euismod consequat mauris suscipit ut.
-    Curabitur semper elit sed leo venenatis pulvinar. Ut quis ornare dolor.
+    Hier werden wir nach Ablauf der ersten Voting-Phase alle Nominierten vorstellen!
   </p>
 
-  <ul id="filters" class="filters">
+<img class="alignnone size-full wp-image-152" src="http://www.skillz-leipzig.de/wp-content/uploads/2016/02/SKILLZ_UT_Connewitz-960x424.jpg" alt="SKILLZ Award - Gala - UT Connewitz" width="960" height="424" />
+
+  <!-- <ul id="filters" class="filters">
     <li><a href="#" data-filter="*">Zurücksetzen</a></li>
   	<?php
   		$terms = get_terms('category', array('parent' => '9')); // LIVE = 75 // you can use any taxonomy, instead of just 'category'
   		$count = count($terms); //How many are they?
   		if ( $count > 0 ){  //If there are more than 0 terms
   			foreach ( $terms as $term ) {  //for each term:
-  				echo "<li><a href='#' data-filter='.".$term->slug."'>" . $term->name . "</a></li>\n";
+  				echo "<li><a href='javascript:void(0);' data-filter='.".$term->slug."'>" . $term->name . "</a></li>\n";
   				//create a list item with the current term slug for sorting, and name for label
   			}
   		}
   	?>
-  </ul>
+  </ul> -->
 
   <?php
     $terms_ID_array = array();

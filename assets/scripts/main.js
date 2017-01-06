@@ -1,43 +1,34 @@
-jQuery(window).load(function() {
-
-
-// isotope init
-var $container = jQuery('#isotope-list'); //The ID for the list with all the blog posts
-$container.isotope({ //Isotope options, 'item' matches the class in the PHP
-itemSelector : '.grid-item',
-// percentPosition: true,
-layoutMode : 'fitRows',
-// fitRows: {
-//   gutter: 15
-// }
-});
-
-//Add the class selected to the item that is clicked, and remove from the others
-var $optionSets =jQuery('#filters'),
-$optionLinks = $optionSets.find('a');
-
-$optionLinks.click(function(){
-var $this = jQuery(this);
-// don't proceed if already selected
-if ( $this.hasClass('selected') ) {
-return false;
-}
-var $optionSet = $this.parents('#filters');
-$optionSets.find('.selected').removeClass('selected');
-$this.addClass('selected');
-
-//When an item is clicked, sort the items.
-var selector = jQuery(this).attr('data-filter');
-$container.isotope({ filter: selector });
-
-return false;
-});
-});
+// jQuery(window).load(function() {
+//
+// // isotope init
+// var $isoContainer = jQuery('#isotope-list');
+// $isoContainer.isotope({
+//   itemSelector : '.grid-item',
+//   layoutMode : 'fitRows'
+// });
+//
+// // filter settings
+// var $optionSets = jQuery('#filters'),
+// $optionLinks = $optionSets.find('a');
+//
+// $optionLinks.click(function() {
+//   var $this = jQuery(this);
+//   if ( $this.hasClass('selected') ) {
+//     return false;
+//   }
+//
+//   var $optionSet = $this.parents('#filters');
+//   $optionSets.find('.selected').removeClass('selected');
+//   $this.addClass('selected');
+//
+//   var selector = jQuery(this).attr('data-filter');
+//   $isoContainer.isotope({ filter: selector });
+//
+//   return false;
+//   });
+// });
 
 jQuery(function ($) {
-
-
-
 
   // smooth scroll
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -53,6 +44,10 @@ jQuery(function ($) {
     }
   });
 
-
-
+  // $('.menu-kuenstler a').addClass('disabled');
+  // $('.menu-archiv a').addClass('disabled');
+  //
+  //
+  // $('.menu-kuenstler a').attr('href', 'javascript:void(0)');
+  // $('.menu-archiv a').attr('href', 'javascript:void(0)');
 });

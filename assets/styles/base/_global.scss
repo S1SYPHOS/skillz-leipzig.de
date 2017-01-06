@@ -19,16 +19,7 @@ body {
   height: 100%;
 }
 
-
-.container {
-  @include container;
-  // @include pad(20px);
-
-  @include min-width(medium) {
-    max-width: 640px;
-  }
-
-  @include min-width(large) {
-    max-width: 960px;
-  }
+body {
+  display: flex;
+  flex-direction: column;
 }
