@@ -15,7 +15,7 @@
             <a class="supporter itsyours" href="http://www.itsyours.info" target="_blank"></a>
           </li>
           <li>
-            <a class="supporter raputation" href="http://www.raputation.de" target="_blank"></a>
+            <a class="supporter raputation" href="http://raputation.de/" target="_blank"></a>
           </li>
         </ul>
       </div>
@@ -27,6 +27,9 @@
           </li>
           <li>
             <a class="supporter sinntraeger" href="http://www.sinntraeger.com" target="_blank"></a>
+          </li>
+          <li>
+            <a class="supporter rapde" href="http://rap.de/" target="_blank"></a>
           </li>
         </ul>
       </div>
