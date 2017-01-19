@@ -5,8 +5,10 @@ var browserSync  = require('browser-sync').create();
 var changed      = require('gulp-changed');
 var concat       = require('gulp-concat');
 var flatten      = require('gulp-flatten');
+var ftp          = require( 'vinyl-ftp' );
 var gulp         = require('gulp');
 var gulpif       = require('gulp-if');
+var gutil        = require( 'gulp-util' );
 var imagemin     = require('gulp-imagemin');
 var jshint       = require('gulp-jshint');
 var lazypipe     = require('lazypipe');
@@ -19,6 +21,9 @@ var runSequence  = require('run-sequence');
 var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
+
+var secrets = require('./secrets.json');
+
 
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('./assets/manifest.json');
@@ -293,3 +298,26 @@ gulp.task('wiredep', function() {
 gulp.task('default', ['clean'], function() {
   gulp.start('build');
 });
+
+// ### Deploy
+// `gulp deploy` - Deploys certain files onto FTP
+gulp.task( 'deploy', function () {
+
+  var conn = ftp.create( {
+    host: secrets.host,
+    user: secrets.user,
+    password: secrets.pass,
+    parallel: 10,
+    log: gutil.log
+  } );
+
+  var globs = [
+    'assets/**',
+    'dist/**'
+  ];
+
+  return gulp.src( globs, { base: '.', buffer: false } )
+  .pipe( conn.newer( 'wp-content/themes/skillz/' ) )
+  .pipe( conn.dest( 'wp-content/themes/skillz/' ) );
+
+} );
