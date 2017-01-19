@@ -10,7 +10,7 @@
     <div class="supporters one-half">
       <div class="collective mbl">
         <p>Kollektiv:</p>
-        <ul class="inline-list">
+        <ul>
           <li>
             <a class="supporter itsyours" href="http://www.itsyours.info" target="_blank"></a>
           </li>
@@ -21,7 +21,7 @@
       </div>
       <div class="companions">
         <p>Companions:</p>
-        <ul class="inline-list">
+        <ul>
           <li>
             <a class="supporter rapcircus" href="http://www.rapcircus.de" target="_blank"></a>
           </li>
@@ -30,6 +30,9 @@
           </li>
           <li>
             <a class="supporter rapde" href="http://rap.de/" target="_blank"></a>
+          </li>
+          <li>
+            <a class="supporter backspin" href="http://www.backspin.de/" target="_blank"></a>
           </li>
         </ul>
       </div>

@@ -14,9 +14,22 @@
   }
 }
 
-.supporters p {
-  margin-bottom: 0.5 * $small-spacing;
+.supporters {
+
+  p {
+    margin-bottom: 0.5 * $small-spacing;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      margin: 0 0.25em 1em;
+    }
+  }
 }
+
 
 .supporter {
   background-image: url('/wp-content/themes/skillz/dist/images/footer/supporters.png');
@@ -44,12 +57,12 @@
     background-position: 0 0;
   }
 
-  &.raputation {
-    background-position: 0 -85px;
-  }
-
   &.rapcircus {
     background-position: 0 -45px;
+  }
+
+  &.raputation {
+    background-position: 0 -85px;
   }
 
   &.sinntraeger {
@@ -60,5 +73,10 @@
   &.rapde {
     background-position: 0 -170px;
     width: 109px;
+  }
+
+  &.backspin {
+    background-position: 0 -210px;
+    width: 89px;
   }
 }
