@@ -47,7 +47,7 @@ function skillz_post_type() {
   register_post_type('skillz-15', array(
     'labels' => $labels15,
     'public' => true,
-    'has_archive' => true,
+    'has_archive' => false,
     'menu_icon' => 'dashicons-format-audio',
     'taxonomies' => array('category'),
     'rewrite' => true,

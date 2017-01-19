@@ -1,32 +1,32 @@
-// jQuery(window).load(function() {
-//
-// // isotope init
-// var $isoContainer = jQuery('#isotope-list');
-// $isoContainer.isotope({
-//   itemSelector : '.grid-item',
-//   layoutMode : 'fitRows'
-// });
-//
-// // filter settings
-// var $optionSets = jQuery('#filters'),
-// $optionLinks = $optionSets.find('a');
-//
-// $optionLinks.click(function() {
-//   var $this = jQuery(this);
-//   if ( $this.hasClass('selected') ) {
-//     return false;
-//   }
-//
-//   var $optionSet = $this.parents('#filters');
-//   $optionSets.find('.selected').removeClass('selected');
-//   $this.addClass('selected');
-//
-//   var selector = jQuery(this).attr('data-filter');
-//   $isoContainer.isotope({ filter: selector });
-//
-//   return false;
-//   });
-// });
+jQuery(window).load(function() {
+
+// isotope init
+var $isoContainer = jQuery('#isotope-list');
+$isoContainer.isotope({
+  itemSelector : '.grid-item',
+  layoutMode : 'fitRows'
+});
+
+// filter settings
+var $optionSets = jQuery('#filters'),
+$optionLinks = $optionSets.find('a');
+
+$optionLinks.click(function() {
+  var $this = jQuery(this);
+  if ( $this.hasClass('selected') ) {
+    return false;
+  }
+
+  var $optionSet = $this.parents('#filters');
+  $optionSets.find('.selected').removeClass('selected');
+  $this.addClass('selected');
+
+  var selector = jQuery(this).attr('data-filter');
+  $isoContainer.isotope({ filter: selector });
+
+  return false;
+  });
+});
 
 jQuery(function ($) {
 

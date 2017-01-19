@@ -64,3 +64,13 @@
 // }
 //
 // <?php display_all_products_from_all_categories(); ?>
+
+.blog .hentry {
+  padding: 2 * $small-spacing 0 2 * $small-spacing;
+  margin: 0 0 2 * $small-spacing;
+  border-bottom: 1px solid $dark-gray;
+}
+
+
+
+<?php if( get_field('tagline') ): ?><q cite="<?php the_title(); ?>"><?php the_field('tagline'); ?><?php endif; ?></q>

@@ -1,0 +1,11 @@
+.hide-on-small {
+  @include max-width(mediumMax) {
+    display: none;
+  }
+}
+
+.hide-medium-up {
+  @include min-width(medium) {
+    display: none;
+  }
+}

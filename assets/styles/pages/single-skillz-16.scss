@@ -2,18 +2,11 @@
 
   .site-content {
     position: relative;
-  }
 
-  main {
-    // background: $dark-gray;
-    // color: #fff;
-  }
-
-  h1 {
-    // color: #fff;
-
-    &:after {
-      // background:
+    .container {
+      @include max-width(largeMax) {
+        max-width: 85%;
+      }
     }
   }
 }
@@ -44,23 +37,31 @@
 
 .type-skillz-16 {
   margin-top: 50px;
+
+  @include min-width(medium) {
+    display: flex;
+  }
+
+  footer {
+    width: 100%;
+  }
 }
 
 .portrait {
 
   @include min-width(medium) {
-    width: 360px;
-    float: left;
+    flex: 1;
+    // float: left;
     margin-right: 40px;
 
     &--sidebar {
-      width: 240px;
-      float: right;
+      // width: 240px;
+      // float: right;
     }
   }
 
   @include min-width(large  ) {
-    width: 540px;
+    // width: 540px;
     margin-right: 60px;
 
     &--sidebar {
