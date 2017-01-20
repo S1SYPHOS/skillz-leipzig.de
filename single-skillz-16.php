@@ -46,7 +46,7 @@
       <?php endif; ?>
     </div>
   </nav>
-  <article <?php post_class('slide'); ?>>
+  <article <?php post_class('fadeIn'); ?>>
     <div class="portrait">
       <header>
         <h1 class="entry-title"><?php the_title(); ?></h1>
