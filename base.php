@@ -4,7 +4,6 @@ use Roots\Sage\Setup;
 use Roots\Sage\Wrapper;
 
 ?>
-
 <!doctype html>
 <html <?php language_attributes(); ?>>
   <?php get_template_part('templates/head'); ?>
@@ -19,7 +18,7 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/header');
     ?>
     <main <?php if (is_front_page()) : ?> id="hier-gehts-zum-voting"<?php endif; ?> class="site-content">
-      <div class="container fadeIn">
+      <div class="container<?php if (!is_singular('skillz-16')) : ?> fadeIn<?php endif; ?>">
         <?php include Wrapper\template_path(); ?>
         <!-- <?php if (Setup\display_sidebar()) : ?>
           <aside class="sidebar">

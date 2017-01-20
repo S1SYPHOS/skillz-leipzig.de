@@ -12,8 +12,9 @@ legend {
 }
 
 label {
-  display: block;
+  display: inline;
   font-weight: 600;
+  margin-left: $small-spacing;
   margin-bottom: $small-spacing / 2;
 }
 

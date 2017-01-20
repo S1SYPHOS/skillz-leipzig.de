@@ -37,6 +37,7 @@
 
 .type-skillz-16 {
   margin-top: 50px;
+  animation: fadeIn $base-duration $base-timing both;
 
   @include min-width(medium) {
     display: flex;

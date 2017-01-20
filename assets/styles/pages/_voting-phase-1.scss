@@ -6,7 +6,7 @@
     text-align: center;
   }
 
-  input:not([type="submit"]) {
+  input[type="text"] {
     font-size: 1.25rem;
     border-color: $action-color;
 
@@ -15,7 +15,8 @@
     }
   }
 
-  input[type="submit"] {
+  input[type="submit"],
+  input[type="button"] {
     margin: 0 auto;
   }
 }

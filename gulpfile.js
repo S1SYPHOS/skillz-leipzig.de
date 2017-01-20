@@ -307,13 +307,14 @@ gulp.task( 'deploy', function () {
     host: secrets.host,
     user: secrets.user,
     password: secrets.pass,
-    parallel: 10,
+    parallel: 5,
     log: gutil.log
   } );
 
   var globs = [
     'assets/**',
-    'dist/**'
+    'dist/**',
+    'templates/**'
   ];
 
   return gulp.src( globs, { base: '.', buffer: false } )

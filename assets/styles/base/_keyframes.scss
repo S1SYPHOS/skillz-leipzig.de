@@ -9,5 +9,5 @@
 }
 
 .fadeIn {
-  animation-name: fadeIn;
+  animation: fadeIn $base-duration $base-timing both;
 }

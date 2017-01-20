@@ -96,3 +96,10 @@ add_filter('get_next_post_where',  'filter_next_post_where');
 
 add_filter('get_previous_post_sort',  'filter_previous_post_sort');
 add_filter('get_previous_post_where', 'filter_previous_post_where');
+
+
+// Deregister WP-Polls styles
+function deregister_wppolls_styles() {
+  wp_deregister_style('wp-polls');
+}
+add_action('wp_print_styles', 'deregister_wppolls_styles', 100);
