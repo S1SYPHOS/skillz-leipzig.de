@@ -52,40 +52,37 @@
         <h1 class="entry-title"><?php the_title(); ?></h1>
       </header>
       <div class="entry-content">
-        <?php if ( has_post_thumbnail() ) { the_post_thumbnail('medium', array('class' => 'hide-medium-up')); } ?>
-        <?php the_content(); ?>
-        <footer>
-          <p>
-            <?php
-              $terms = get_the_category();
-              $count = count($terms); // How many are they?
-            ?>
-            Ihr habt <?php the_title() ?> beim SKILLZ '16' in <?php if ( $count == 1 ) { echo 'der Kategorie'; } else { echo 'den Kategorien'; } ?>
-            <?php
-            if ( $count > 0 ) {  // If there are more than 0 terms
-              foreach ( $terms as $term ) {  // for each term:
+        <?php if ( has_post_thumbnail() ) { the_post_thumbnail('medium'); } ?>
+        <p>
+          <?php
+          $terms = get_the_category();
+          $count = count($terms); // How many are they?
+          ?>
+          <?php the_title() ?> ist / sind beim SKILLZ '16' in <?php if ( $count == 1 ) { echo 'der Kategorie'; } else { echo 'den Kategorien'; } ?>
+          <?php
+          if ( $count > 0 ) {  // If there are more than 0 terms
+            foreach ( $terms as $term ) {  // for each term:
 
-                if (end($terms) !== $term) {
-                  // Not last (all others)
-                  echo $term->name . ', ';
+              if (end($terms) !== $term) {
+                // Not last (all others)
+                echo $term->name . ', ';
+              } else {
+                // Last item
+                if ( $count == 1 ) {
+                  echo $term->name;
                 } else {
-                  // Last item
-                  if ( $count == 1 ) {
-                    echo $term->name;
-                  } else {
-                    echo 'und ' . $term->name;
-                  }
+                  echo 'und ' . $term->name;
                 }
               }
             }
-            ?>
-            nominiert.
-          </p>
-        </footer>
+          }
+          ?>
+          für diese Beiträge nominiert:
+        </p>
+        <?php the_content(); ?>
       </div>
     </div>
     <aside class="portrait--sidebar">
-      <?php if ( has_post_thumbnail() ) { the_post_thumbnail('medium', array('class' => 'hide-on-small')); } ?>
       <div class="entry-content-asset">
         <?php if( get_field('embed') ): ?>
         	<?php the_field('embed'); ?>
