@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Älmächtig
+
+----
+
+Portrait: aelmaechtig.png
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

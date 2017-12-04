@@ -1,0 +1,58 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: beppo-s-und-peter-b.jpg
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Bis unendlich
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Life Aint Fair
+- 
+  category: Liveact
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+
+----
+
+Seo: 

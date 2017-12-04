@@ -1,0 +1,66 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Tags: Track,Liveact,Video,Künstler
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Portrait: 
+
+----
+
+Awards: 
+
+- 
+  category: Liveact
+  votes: ""
+  web: ""
+  video: ""
+  text: '(mit Stylus MC & DJ dørbystarr)'
+  victory: "1"
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 1000 Blaupausen
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Bewusstsein
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 

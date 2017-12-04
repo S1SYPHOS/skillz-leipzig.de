@@ -1,0 +1,79 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: EP
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Peinlich für 20 Mann
+- 
+  category: Liveact
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: (vs. Marek Notfall)
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Mietzekatze
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Peinlich für 20 Mann
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Winter im Freibad
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Peinlich Für 20 Mann
+
+----
+
+Seo: 

@@ -1,0 +1,55 @@
+label: Nominierungen & Auszeichnungen
+type: structure
+modalsize: large
+limit: 11 # unsicher
+entry: >
+  <b>{{category}}</b><br>
+  {{text}}
+sort: category, asc
+fields:
+  category:
+    label: Kategorie
+    type: select
+    width: 3/4
+    required: true
+    options:
+      Album: Album
+      Artwork: Artwork
+      DJ: DJ
+      EP: EP
+      Künstler: Künstler
+      Liveact: Liveact
+      Producer/Beatmaker: Producer/Beatmaker
+      Props aus Leipzig: Props aus Leipzig
+      Punchline: Punchline
+      Track: Track
+      Veranstaltung: Veranstaltung
+      Video: Video
+  victory:
+    label: Gewonnen?
+    type: checkbox
+    text: Ja!
+    width: 1/4
+  web:
+    label: Webseite
+    type: url
+    width: 3/4
+    help: >
+      Sehen · Hören · Staunen · Kaufen
+  votes:
+    label: Stimmen
+    type: number
+    width: 1/4
+  video:
+    label: Video
+    type: embed
+    preview: true
+    info: false
+    cheatsheet: false
+    help: >
+      Youtube · Soundcloud · Vimeo
+  text:
+    label: Beschreibung
+    type: textarea
+    help: >
+      Allgemeines · Punchline

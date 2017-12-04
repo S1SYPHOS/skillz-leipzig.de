@@ -1,0 +1,11 @@
+label: Programmierschnittstelle
+type: structure
+modalsize: large
+style: table
+entry: >
+  <b>{{name}}</b>
+sort: title, asc
+fields:
+  title:
+    label: Name
+    type: text

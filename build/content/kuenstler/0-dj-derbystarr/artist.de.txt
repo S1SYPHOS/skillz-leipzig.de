@@ -1,0 +1,33 @@
+Tab1: 
+
+----
+
+Title: DJ dørbystarr
+
+----
+
+Portrait: dj_derbystarr.jpg
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Alt-title: 
+
+----
+
+Embed: https://youtu.be/m4TayW5sekI
+
+----
+
+Link: http://www.derbystarr.com/

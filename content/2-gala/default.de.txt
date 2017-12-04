@@ -1,0 +1,29 @@
+Tab1: 
+
+----
+
+Title: Gala
+
+----
+
+Text: 
+
+Die Untergrund-Gala des SKILLZ Award fand am 18. März 2017 im  UT Connewitz statt.
+
+Alle aktuellen Informationen rund um SKILLZ '16 findet ihr auf (link: https://de-de.facebook.com/skillzleipzig/ text: Facebook popup: yes).
+
+---
+
+(image: flyer.jpg)
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Banner: banner_gala.jpg

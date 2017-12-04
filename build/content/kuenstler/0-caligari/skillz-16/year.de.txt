@@ -1,0 +1,79 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: CoolWeilYo
+- 
+  category: Liveact
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 35er Lifestyle (mit Notos)
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Esistimmernochso
+- 
+  category: Producer/Beatmaker
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Album
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: CoolWeilYo
+
+----
+
+Seo: 

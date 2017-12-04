@@ -1,0 +1,65 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: EP
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 'Leuchtfeuer (mit Hektik & Siriuz)'
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 'Leuchtfeuer (mit Hektik & Siriuz)'
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 'Zwischenraum (mit Hektik & Siriuz)'
+- 
+  category: Producer/Beatmaker
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 'Zwischenraum (mit Hektik & Siriuz)'
+
+----
+
+Seo: 

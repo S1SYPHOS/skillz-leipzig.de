@@ -1,0 +1,44 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: EP
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Prachtrüden Tape Vol. 1
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Prachtrüden Tape Vol. 1
+
+----
+
+Seo: 

@@ -1,0 +1,82 @@
+title:
+  de: Künstler
+  en: Artist
+
+# Page options
+icon:           id-card-o     # Font Awesome icon: http://fontawesome.io/icons
+hide:           false         # Hide page from the panel
+preview:        page          # page, parent, first-child, last-child
+
+options:
+  delete:       true          # Allow/disallow to delete a page
+  preview:      true          # Show/hide the preview button in the sidebar
+  status:       true          # Allow/disallow to change the status of a page
+  template:     true          # Allow/disallow to change the template of a page
+  update:       true          # Prevent editing of a page for all editors
+url: true          # Allow/disallow to modify the URL of a page
+
+# Subpages options
+pages:
+  add:           true         # Show/hide the add button
+  limit:         20           # Paginate displayed subpages
+  max:           null         # Maximum number of subpages
+  num:           null         # Numbering mode of visible subpages: default, zero and date
+  sort:          flip         # Sort subpages by field
+  template:      year         # Restrict templates
+
+
+# Files options
+files: false
+  add:          true          # Show/hide the add button
+  hide:         false         # Hide files in the panel
+  max:          null          # Maximum number of files
+  sanitize:     true          # Sanitizes uploaded filenames
+  size:         false         # Limit the file size
+  sortable:     true          # Enable sorting files by drag & drop
+  type:         null          # Restrict panel users to upload other types
+  height:       false         # Limit image height
+  width:        false         # Limit image width
+  fields:
+    alt:        alt
+    caption:    caption
+
+
+# Fields options
+fields:
+  tab1:
+    label: Inhalt
+    type:  tabs
+  title:
+    label: Title
+    type:  text
+    width: 2/3
+  portrait:
+    label: Portrait
+    type: quickselect
+    options: images
+    width: 1/3
+    help: >
+      optional
+  alt_title:
+    label: Alternativname
+    type: text
+    width: 2/3
+  link:
+    label: Link
+    type: url
+    width: 1/3
+  text:
+    label: Text
+    type:  textarea
+  embed:
+    label: Video
+    type: embed
+    preview: true
+    info: false
+    cheatsheet: false
+    help: >
+      Youtube · Soundcloud · Vimeo
+  tab2:
+    label: Meta
+    type:  tabs
+  seo: seo

@@ -1,0 +1,17 @@
+label: Vorschläge
+type: structure
+modalsize: large
+# readonly: true
+# entry: >
+fields:
+  title:
+    label: Name
+    type: text
+    width: 1/2
+  category:
+    label: Kategorie
+    type: text
+    width: 1/2
+  text:
+    label: Text
+    type: textarea

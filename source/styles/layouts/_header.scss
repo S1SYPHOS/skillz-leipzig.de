@@ -1,0 +1,111 @@
+.site-header {
+  padding: 2em 0;
+  background: url('/assets/images/dots.png') no-repeat center center, linear-gradient(to bottom, #250101 0%, #320200 25%, #250101 75%);
+  background-size: cover;
+
+  .home & {
+    background: url('/assets/images/character.png') no-repeat top center, radial-gradient(circle, #250101 0%, #320200 25%, #250101 75%);
+    background-size: cover;
+    height: 100%;
+    flex: 1 0 auto;
+  }
+
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+
+    @include min-width(large) {
+      max-width: 960px;
+    }
+  }
+}
+
+.logo img {
+  position: relative;
+  width: 126px;
+  height: 90px;
+  z-index: $base-z-index + 100;
+
+  @include min-width(medium) {
+    width: 232px;
+    height: 170px;
+  }
+}
+
+.call-to-vote {
+  display: none;
+
+  @include min-width(small) {
+    display: block;
+  }
+
+  // .home & {
+  //   display: block;
+  // }
+
+  .btn {
+    display: table;
+
+    .home & {
+      position: absolute;
+      bottom: 2em;
+      margin-left: -30.5px;
+      text-align: center;
+    }
+  }
+}
+
+.header-nav {
+
+  .nav-menu.active & {
+
+    @include max-width(mediumMax) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding-top: 154px;
+      font-size: modular-scale(3);
+
+      li {
+        padding: 12px 0;
+      }
+    }
+  }
+}
+
+.nav-toggle {
+  color: #fff;
+  display: block;
+  visibility: visible;
+  z-index: $base-z-index + 100;
+  position: relative;
+  background: transparent !important;
+  border: 1px solid #fff !important;
+}
+
+
+
+.js-astro .nav-menu {
+  text-align: center;
+  display: block;
+  transition: $base-duration $base-timing;
+
+  @include max-width(mediumMax) {
+    display: none;
+
+    &.active {
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(#250101 0%, #320200 25%, #250101 75%);
+      z-index: $base-z-index + 50;
+      overflow: hidden;
+    }
+  }
+}

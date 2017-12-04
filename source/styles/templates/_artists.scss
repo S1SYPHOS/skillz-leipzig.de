@@ -1,0 +1,88 @@
+$item-size: 210px;
+$item-margin: 5px;
+$overview-width: 4 * $item-size + 4 * $item-margin;
+
+.artist-wrap {
+  // display: table;
+  margin: 0 auto;
+  max-width: $overview-width;
+}
+
+.filters {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: $base-spacing;
+
+  li {
+    margin: 0 5px 10px;
+
+    a {
+      display: block;
+      padding: 8px 12px;
+      background: $action-color;
+      color: #fff;
+      transition: background-color $base-duration $base-timing;
+
+      &:hover,
+      &.is-active {
+        background: $accent-color;
+      }
+    }
+  }
+}
+
+.artist-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.artist-item {
+  width: $item-size;
+  height: $item-size;
+
+  @include min-width(large) {
+    // width: 220px;
+    // height: 220px;
+  }
+
+  figure {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+    margin: $item-margin;
+
+    @include min-width(large) {
+      // margin: 10px;
+    }
+  }
+
+  figcaption {
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform: translate3d(0, 100%, 0);
+    backface-visibility: hidden;
+    transition: transform $base-duration $base-timing;
+    padding: 0.5em;
+    // display: table-caption;
+    // caption-side: bottom;
+    background: transparentize(#000, 0.5);
+    line-height: $base-line-height;
+  }
+
+  &:hover figcaption {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.trophies {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}

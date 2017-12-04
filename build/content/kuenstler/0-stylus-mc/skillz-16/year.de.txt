@@ -1,0 +1,73 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Tags: Track,Liveact,Video,Künstler
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Portrait: 
+
+----
+
+Awards: 
+
+- 
+  category: Liveact
+  votes: ""
+  victory: "1"
+  web: ""
+  video: ""
+  text: '(mit Kritikal27 & DJ dørbystarr)'
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: The O.U.S
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: The O.U.S
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Realität
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 

@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Jahmica
+
+----
+
+Portrait: jahmica.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

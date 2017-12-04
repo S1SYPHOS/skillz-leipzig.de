@@ -1,0 +1,286 @@
+Title: SKILLZ Award | HipHop. Award. Leipzig.
+
+----
+
+Description: 
+
+----
+
+Copyright: 
+
+----
+
+Api-artists: 
+
+- 
+  title: 8ZWO7
+- 
+  title: Aglie 827
+- 
+  title: Alex P
+- 
+  title: Älmächtig
+- 
+  title: Arvid Wünsch
+- 
+  title: Asthma La Vista
+- 
+  title: bÄyz
+- 
+  title: Beatjunkie Rato
+- 
+  title: Beppo S.
+- 
+  title: 'Beppo S. & Peter B.'
+- 
+  title: Big A
+- 
+  title: Bugs in Noodle
+- 
+  title: BzumZ
+- 
+  title: Caligari
+- 
+  title: Candiman
+- 
+  title: Chezz
+- 
+  title: Cleptomatic
+- 
+  title: crssspace
+- 
+  title: D-Max
+- 
+  title: Dark Dayz
+- 
+  title: DasKidmo
+- 
+  title: Defcon
+- 
+  title: Der Asiate
+- 
+  title: Diabolik
+- 
+  title: DJ Conquista
+- 
+  title: DJ D-Fekt aka Defekto
+- 
+  title: DJ dørbystarr
+- 
+  title: DJ Loom
+- 
+  title: DJ Lukutz
+- 
+  title: DJ Saibz
+- 
+  title: dude26
+- 
+  title: Duktus
+- 
+  title: Etogate
+- 
+  title: Fanatikk
+- 
+  title: Fatboi One
+- 
+  title: Flex Hat Den Kleinsten
+- 
+  title: 'Flowkost & Fallobzt'
+- 
+  title: Flughand
+- 
+  title: Free-Kee
+- 
+  title: Funkverteidiger
+- 
+  title: Harry Breast
+- 
+  title: Hektik
+- 
+  title: HeMightBe
+- 
+  title: Hosta Beatz
+- 
+  title: IAMPAUL
+- 
+  title: J-Beats
+- 
+  title: Jahmica
+- 
+  title: Jake Five
+- 
+  title: Jimmi Vau
+- 
+  title: Karar Kyshat
+- 
+  title: Katharsis
+- 
+  title: Ket
+- 
+  title: Kit Kut
+- 
+  title: Kkoma
+- 
+  title: Kkorpus Delikkti
+- 
+  title: Kritikal27
+- 
+  title: Lun
+- 
+  title: MAFA
+- 
+  title: Marek Notfall
+- 
+  title: Mase
+- 
+  title: Maulheld
+- 
+  title: MCE
+- 
+  title: Morris Lesky
+- 
+  title: Mr. Beef
+- 
+  title: Notos
+- 
+  title: Odd Job
+- 
+  title: Omik K.
+- 
+  title: Orez Junk
+- 
+  title: OverDubClub
+- 
+  title: Padshah
+- 
+  title: Peter B.
+- 
+  title: phaeb
+- 
+  title: PHAX
+- 
+  title: Phoenix Muhammad
+- 
+  title: Pierre Sonality
+- 
+  title: Ranko
+- 
+  title: Rasputin
+- 
+  title: ReedFlavor
+- 
+  title: Rice Master Yen
+- 
+  title: Schach Matt Entertainment
+- 
+  title: Schattenparker
+- 
+  title: Scientist
+- 
+  title: SEN
+- 
+  title: Sendemast
+- 
+  title: Shizo One
+- 
+  title: Siriuz
+- 
+  title: Smog
+- 
+  title: Sounds Like Ham In The Pan
+- 
+  title: Spank
+- 
+  title: Speche
+- 
+  title: Stylus MC
+- 
+  title: Synthikat
+- 
+  title: Tapor
+- 
+  title: The Finn
+- 
+  title: Tims Line
+- 
+  title: Tony Smash
+- 
+  title: Trashfuck
+- 
+  title: Trettmann
+- 
+  title: Unheilz
+- 
+  title: Vitality
+- 
+  title: Zoidberg Gang
+- 
+  title: 'Kalle & Emsick'
+- 
+  title: Tony Dancer
+
+----
+
+Api-events: 
+
+- 
+  title: Open Mic am Dienstag (OMAD)
+- 
+  title: All 4 Hip Hop Jam
+- 
+  title: Beatz im Block
+- 
+  title: BROOKLYN ZOOO!
+- 
+  title: BLU LPZ
+- 
+  title: NEF
+- 
+  title: Real HipHop
+- 
+  title: Projekt Santa
+- 
+  title: Retrogott
+- 
+  title: Traphouse
+- 
+  title: True Swing Festival
+- 
+  title: Weside Files
+- 
+  title: WORD! Cypher
+
+----
+
+Footer: 
+
+- 
+  title: Voting
+  link: https://voting.skillz-leipzig.de/
+- 
+  title: Facebook
+  link: https://www.facebook.com/skillzleipzig/
+- 
+  title: Instagram
+  link: https://www.instagram.com/skillzleipzig/
+
+----
+
+Mail: award@skillz-leipzig.de
+
+----
+
+Voting: 
+
+- 
+  title: Tony Dancer
+  category: Künstler
+  text: 'der rockt einfach - kudos!'
+- 
+  title: Etogate, Defcon,
+  category: Artwork
+  text: boom baby
+- 
+  title: DJ Saibz, Defcon,
+  category: Artwork
+  text: ""

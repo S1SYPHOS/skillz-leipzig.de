@@ -1,0 +1,52 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '15
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Awards: 
+
+- 
+  category: Liveact
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: (mit Stylus MC)
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+
+----
+
+Tab3: 
+
+----
+
+Seo: 

@@ -1,0 +1,60 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Tags: DJ,Künstler,Liveact,Track,Video
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Awards: 
+
+- 
+  category: Liveact
+  votes: ""
+  web: http://duckduckgo.com
+  video: >
+    https://www.youtube.com/watch?v=IdqT2z3w-8c
+  text: 'Beschreibung (Titel, wo & wann, ...)'
+  victory: "1"
+- 
+  category: Video
+  votes: ""
+  victory: "0"
+  web: ""
+  video: ""
+  text: 'Sayes - Ansage Aussage mit DJ dørbystarr'
+- 
+  category: Track
+  votes: ""
+  victory: "0"
+  web: ""
+  video: https://youtu.be/m4TayW5sekI
+  text: 'DJ dørbystarr & da Posse - 15Y'
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 

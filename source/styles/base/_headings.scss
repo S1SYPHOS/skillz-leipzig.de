@@ -1,0 +1,18 @@
+h1 {
+  font-size: modular-scale(3);
+  display: table;
+  margin: 0 auto $base-spacing;
+
+  &:after {
+    content: '';
+    width: 2 * $small-spacing;
+    height: 2px;
+    background: $accent-color;
+    display: block;
+    margin-top: 4px;
+  }
+}
+
+h2 {
+  font-size: modular-scale(2);
+}

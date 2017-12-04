@@ -1,0 +1,109 @@
+.awesomplete {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+
+  [hidden] {
+      display: none;
+  }
+
+  .visually-hidden {
+      position: absolute;
+      clip: rect(0, 0, 0, 0);
+  }
+
+  > input {
+      display: block;
+      margin: 0;
+  }
+
+  > ul {
+    border: $base-border;
+    border-top: 1px dotted $base-border-color;
+    background: $base-background-color;
+    overflow: auto;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    min-width: 100%;
+
+    &:empty {
+        display: none;
+    }
+
+    > li {
+      padding: $base-spacing / 3;
+      white-space: nowrap;
+      overflow: hidden;
+
+      &:hover,
+      &[aria-selected="true"] {
+        background: lighten($light-gray, 5%);
+      }
+    }
+  }
+
+  mark,
+  li:hover mark,
+  li[aria-selected="true"] mark {
+    color: $accent-color;
+    background-color: inherit;
+    font-weight: 700;
+  }
+}
+
+.livesearch {
+
+  &_label {
+    font-size: 15px;
+  }
+
+  [type="submit"] {
+    width: 100%;
+
+    @include grid-media($grid-layout--thirds-medium-up) {
+      width: auto;
+      float: right;
+    }
+  }
+}
+
+.grid {
+  @include grid-container;
+}
+
+.grid-full {
+  @include grid-column(1, $grid-layout);
+}
+
+.grid_two-thirds {
+  @include grid-column(1, $grid-layout);
+
+  @include grid-media($grid-layout--thirds-medium-up) {
+    @include grid-column(2);
+  }
+}
+
+.grid_one-third {
+  @include grid-column(1, $grid-layout);
+
+  @include grid-media($grid-layout--thirds-medium-up) {
+    @include grid-column(1);
+  }
+}
+
+.grid_three-fifths {
+  @include grid-column(1, $grid-layout);
+
+  @include grid-media($grid-layout--fifths-medium-up) {
+    @include grid-column(3);
+  }
+}
+
+.grid_two-fifths {
+  @include grid-column(1, $grid-layout);
+
+  @include grid-media($grid-layout--fifths-medium-up) {
+    @include grid-column(2);
+  }
+}

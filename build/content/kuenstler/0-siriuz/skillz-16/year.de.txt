@@ -1,0 +1,93 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: EP
+  victory: "1"
+  web: ""
+  votes: ""
+  video: ""
+  text: 'Leuchtfeuer (mit Hektik  & Rato)'
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 'Leuchtfeuer (mit Hektik & Rato)'
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: https://youtu.be/SvHtdgX05wE
+  text: Reminiszenz (mit Hektik)
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: https://youtu.be/wtMtQvdLBfk
+  text: 'Zwischenraum (mit Hektik & Rato)'
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 'Zwischenraum (mit Hektik & Rato)'
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Alles was du bist (mit Synthikat)
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Ende des Versuchs (mit Weakhead)
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Ende des Versuchs (mit Weakhead)
+
+----
+
+Seo: 

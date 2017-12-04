@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Siriuz
+
+----
+
+Portrait: siriuz.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

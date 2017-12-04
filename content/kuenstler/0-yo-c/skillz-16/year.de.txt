@@ -1,0 +1,37 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Tags: DJ,Künstler
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Portrait: 
+
+----
+
+Awards: 
+
+- 
+  category: DJ
+  votes: ""
+  web: ""
+  video: ""
+  text: ""
+  victory: "1"

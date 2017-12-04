@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Tony Dancer
+
+----
+
+Portrait: tony-dancer.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

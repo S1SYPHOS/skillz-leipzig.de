@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Schmutzige Teenager
+
+----
+
+Portrait: schmutzige_teenager.png
+
+----
+
+Props: 0
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 

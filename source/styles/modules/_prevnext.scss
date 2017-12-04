@@ -1,0 +1,17 @@
+$prevnext-color: #FFF;
+
+.prevnext {
+  background: $action-color;
+  color: $prevnext-color;
+
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  a {
+    padding: $small-spacing 0;
+    color: $prevnext-color;
+  }
+}

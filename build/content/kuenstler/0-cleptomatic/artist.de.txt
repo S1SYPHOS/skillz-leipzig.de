@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Cleptomatic
+
+----
+
+Portrait: cleptomatic.jpg
+
+----
+
+Props: 0
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 

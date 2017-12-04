@@ -1,0 +1,69 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '15
+
+----
+
+Portrait: 
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Awards: 
+
+- 
+  category: Punchline
+  victory: "1"
+  web: ""
+  votes: ""
+  video: https://youtu.be/WHWR7ez9Rjo
+  text: >
+    "Wenn ich nicht grade überlege, wie ich
+    mich umbringen kann, guck ich mir auf
+    Facebook Bilder von deiner Familie an"
+    (mit Defcon)
+- 
+  category: Album
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: (mit Defcon)
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: (mit Defcon)
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: (mit Defcon)
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+
+----
+
+Tab3: 
+
+----
+
+Seo: 

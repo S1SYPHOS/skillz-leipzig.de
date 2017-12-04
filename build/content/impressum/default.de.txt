@@ -1,0 +1,41 @@
+Tab1: 
+
+----
+
+Title: Impressum
+
+----
+
+Banner: 
+
+----
+
+Text: 
+
+Der SKILLZ Award ist ein Gemeinschaftsprojekt der Leipziger Portale (link: http://www.itsyours.info/ text: It’s Yours popup: yes) und (link: http://raputation.de/ text: Raputation popup: yes).
+
+## Vertreten durch
+Felix Edgar Enders
+Tobias Bieheim
+
+## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+Felix Edgar Enders (Content & Bürokratie) & Tobias Bieheim (Content & Öffentlichkeitsarbeit)
+
+## Angaben gemäß § 5 TMG
+Felix Enders
+Bornaische Straße 42
+04277 Leipzig
+
+## Kontakt
+E-Mail: award (ät) skillz-leipzig (punkt) de
+
+## Umsetzung & technische Betreuung
+Martin Folkers · https://twobrain.io/
+
+----
+
+Tab2: 
+
+----
+
+Seo: 

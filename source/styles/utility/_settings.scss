@@ -1,0 +1,98 @@
+// Typography
+$base-font-family: 'Pontano Sans', sans-serif;
+$heading-font-family: $base-font-family;
+
+// Font Sizes
+$base-font-size: 1em;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: 1.5em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$gold: #bf9548;
+$dark-red: #8e211c;
+$dark-gray: #252525;
+$medium-gray: #999;
+$light-gray: #ddd;
+$cream: #f5f6ee;
+$white: #fff;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $gold;
+$accent-color: $dark-red;
+
+// Border
+$base-border-color: $gold;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: $white;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Focus
+$focus-outline-color: transparentize($action-color, 0.4);
+$focus-outline-width: 3px;
+$focus-outline: $focus-outline-width solid $focus-outline-color;
+$focus-outline-offset: 2px;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+
+// CUSTOM
+
+// Breakpoints
+
+/*
+16px base
+30em = 480px
+40em = 640px
+48em = 768px
+64em = 1024px
+80em = 1280px
+90em = 1440px
+100em = 1600px
+*/
+
+
+$breakpoints: (
+  smallMax: 29.938em,
+  small: 30em,
+  mediumMax: 47.938em,
+  medium: 48em,
+  largeMax: 63.938em,
+  large: 64em,
+  xlarge: 90em,
+);
+
+$grid-layout: (
+  columns: 1,
+  gutter: 1rem,
+);
+
+$grid-layout--thirds-medium-up: (
+  columns: 3,
+  gutter: 1rem,
+  media: "(min-width: 768px)",
+);
+
+$grid-layout--half-medium-up: (
+  columns: 2,
+  gutter: 1rem,
+  media: "(min-width: 768px)",
+);
+
+$grid-layout--fifths-medium-up: (
+  columns: 5,
+  gutter: 3rem,
+  media: "(min-width: 768px)",
+);

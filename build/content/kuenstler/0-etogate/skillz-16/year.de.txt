@@ -1,0 +1,44 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Langweilig (mit Defcon)
+- 
+  category: Album
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Abenteuer Abhang (mit Marek Notfall)
+
+----
+
+Seo: 

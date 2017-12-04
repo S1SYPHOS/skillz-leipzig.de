@@ -1,0 +1,83 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Tags: Artwork,Künstler,Track,Producer/Beatmaker,Liveact,Video,Album
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Portrait: 
+
+----
+
+Awards: 
+
+- 
+  category: Artwork
+  votes: ""
+  victory: "0"
+  web: ""
+  video: ""
+  text: fruchtig, flüssig und saftig
+- 
+  category: Künstler
+  votes: ""
+  victory: "0"
+  web: ""
+  video: ""
+  text: ""
+- 
+  category: Liveact
+  votes: ""
+  victory: "0"
+  web: ""
+  video: ""
+  text: ""
+- 
+  category: Track
+  votes: ""
+  victory: "0"
+  web: ""
+  video: ""
+  text: >
+    "Deutsch mich nicht voll" mit DJ
+    Flashcat
+- 
+  category: Producer/Beatmaker
+  votes: ""
+  victory: "0"
+  web: ""
+  video: ""
+  text: ""
+- 
+  category: Album
+  votes: ""
+  victory: "0"
+  web: ""
+  video: ""
+  text: fruchtig, flüssig und saftig
+- 
+  category: Video
+  votes: ""
+  victory: "0"
+  web: ""
+  video: ""
+  text: >
+    "Deutsch mich nicht voll" mit DJ
+    Flashcat

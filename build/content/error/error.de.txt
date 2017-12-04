@@ -1,0 +1,21 @@
+Title: Fehlerseite
+
+----
+
+Banner: 
+
+----
+
+Heading: Seite nicht gefunden!
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Seo: 

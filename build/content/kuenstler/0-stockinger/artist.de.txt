@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Stockinger
+
+----
+
+Portrait: stockinger.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Rasputin
+
+----
+
+Portrait: rasputin.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

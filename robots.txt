@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /wp-content/cache/cache-enabler/
-
-Sitemap: http://skillz-leipzig.de/sitemap.xml

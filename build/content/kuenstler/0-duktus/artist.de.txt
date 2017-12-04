@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Duktus
+
+----
+
+Portrait: duktus.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

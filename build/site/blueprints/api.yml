@@ -1,0 +1,26 @@
+title: API
+
+# Page options
+icon:           newspaper-o   # Font Awesome icon: http://fontawesome.io/icons
+hide:           true          # Hide page from the panel
+preview:        page          # page, parent, first-child, last-child
+
+options:
+  delete:       true          # Allow/disallow to delete a page
+  preview:      true          # Show/hide the preview button in the sidebar
+  status:       true          # Allow/disallow to change the status of a page
+  template:     true          # Allow/disallow to change the template of a page
+  update:       true          # Prevent editing of a page for all editors
+url: true          # Allow/disallow to modify the URL of a page
+
+# Subpages options
+pages: false
+
+# Files options
+files: false
+
+# Fields options
+fields:
+  title:
+    label: Title
+    type:  text

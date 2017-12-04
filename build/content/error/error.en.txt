@@ -1,0 +1,21 @@
+Title: Error
+
+----
+
+Banner: 
+
+----
+
+Heading: Page Not Found!
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Seo: 

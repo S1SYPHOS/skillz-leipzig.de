@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Caligari
+
+----
+
+Portrait: caligari.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

@@ -1,0 +1,51 @@
+Tab1:
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait:
+
+----
+
+Heading:
+
+----
+
+Nav-title:
+
+----
+
+Text:
+
+----
+
+Awards:
+
+-
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+-
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Gedanken
+-
+  category: Liveact
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 'Akasha (mit Candiman & Synthikat)'
+
+----
+
+Seo:

@@ -1,0 +1,87 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '15
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Awards: 
+
+- 
+  category: Liveact
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: (mit Kritikal27)
+- 
+  category: Track
+  victory: "1"
+  web: ""
+  votes: ""
+  video: https://youtu.be/0p88GYZ-MPY
+  text: Moment (feat. Zen-Zin)
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Album
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+
+----
+
+Tab3: 
+
+----
+
+Seo: 

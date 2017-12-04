@@ -1,0 +1,37 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: 
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Awards: 
+
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: https://youtu.be/dvJcUBdDYWU
+  text: ""
+
+----
+
+Tab3: 
+
+----
+
+Seo: 

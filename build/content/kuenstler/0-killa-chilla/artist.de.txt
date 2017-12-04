@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Killa Chilla
+
+----
+
+Portrait: killa-chilla.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

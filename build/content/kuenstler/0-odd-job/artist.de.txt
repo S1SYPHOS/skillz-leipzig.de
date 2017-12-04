@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Odd Job
+
+----
+
+Portrait: odd_job.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

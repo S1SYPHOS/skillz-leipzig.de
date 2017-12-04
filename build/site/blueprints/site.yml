@@ -1,0 +1,75 @@
+title:
+  de: Seite
+  en: Site
+
+# Subpages options
+pages:
+  add:           true         # Show/hide the add button
+  limit:         20           # Paginate displayed subpages
+  max:           null         # Maximum number of subpages
+  num:           null         # Numbering mode of visible subpages: default, zero and date
+  sort:          null         # Sort subpages by field
+  template:      null         # Restrict templates
+
+
+# Files options
+files: false
+  add:          true          # Show/hide the add button
+  hide:         false         # Hide files in the panel
+  max:          null          # Maximum number of files
+  sanitize:     true          # Sanitizes uploaded filenames
+  size:         false         # Limit the file size
+  sortable:     true          # Enable sorting files by drag & drop
+  type:         null          # Restrict panel users to upload other types
+  height:       false         # Limit image height
+  width:        false         # Limit image width
+  fields:
+    alt:        alt
+    caption:    caption
+
+
+# Fields options
+fields:
+  tab1:
+    label: Allgemeines
+    type: tabs
+  title:
+    label: Title
+    type: title
+    width: 2/3
+  mail:
+    label: Mail
+    type: email
+    width: 1/3
+  voting: voting
+  description:
+    label:
+      en: Description
+      de: Beschreibung
+    type: textarea
+  tab2:
+    label: Alle Künstler
+    type:  tabs
+  api_artists: api
+  tab3:
+    label: Alle Events
+    type:  tabs
+  api_events: api
+  tab4:
+    label: Footer-Infos
+    type: tabs
+  footer:
+    label: Footer-Links
+    type: structure
+    modalsize: large
+    entry: >
+      <a href="{{link}}">{{title}}</a>
+    fields:
+      title:
+        label: Title
+        type: text
+        width: 1/3
+      link:
+        label: Link
+        type: url
+        width: 2/3

@@ -1,0 +1,48 @@
+.history {
+  padding-top: 2 * $base-spacing;
+}
+
+.awards, .nominations {
+  padding-top: $small-spacing;
+}
+
+.artist .page-content hr {
+  margin: $small-spacing 0;
+}
+
+.js-to_expand[data-hidden=true] { display: none; }
+
+.js-expandmore {
+  outline: 0;
+  cursor: pointer;
+  transition: color $base-duration $base-timing;
+
+  &:hover {
+    color: shade($action-color, 25%);
+  }
+}
+
+.expandmore__button {
+  background: none;
+  font-size: inherit;
+  color: inherit;
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $base-font-family;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.expandmore__button[aria-expanded=false]:before,
+.expandmore__button[data-expanded=false]:before{
+  content : '+ ';
+}
+.expandmore__button[aria-expanded=true]:before,
+.expandmore__button[data-expanded=true]:before{
+  content : '- ';
+}

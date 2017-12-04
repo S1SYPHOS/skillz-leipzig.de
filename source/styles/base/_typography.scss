@@ -1,0 +1,81 @@
+html {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: 100%;
+  line-height: $base-line-height;
+  background: $cream;
+}
+
+body {
+  font-size: 1rem;
+
+  @include min-width(medium) {
+    font-size: 1.25rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: modular-scale(1);
+  line-height: $heading-line-height;
+
+  // CUSTOM
+  margin: 0 0 $small-spacing / 6;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $action-color;
+}
+
+p {
+  // CUSTOM
+  margin: 0 0 $base-spacing;
+}
+
+a {
+  color: $action-color;
+  text-decoration-skip: ink;
+  transition: color $base-duration $base-timing;
+
+  // CUSTOM
+  text-decoration: none;
+
+  &:hover {
+    color: shade($action-color, 25%);
+  }
+
+  // &:focus {
+  //   outline: $focus-outline;
+  //   outline-offset: $focus-outline-offset;
+  // }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base-spacing 0;
+}
+
+// CUSTOM
+
+.c--red {
+  color: $accent-color;
+}
+
+.hide-on-small {
+  @include max-width(mediumMax) {
+    display: none;
+  }
+}
+
+.hide-medium-up {
+  @include min-width(medium) {
+    display: none;
+  }
+}

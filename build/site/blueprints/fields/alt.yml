@@ -1,0 +1,14 @@
+label:
+  de:       Alternativtext
+  en:       Alternative text
+type:       text
+icon:       wheelchair
+help:
+  de: >
+    Der Alternativtext wird benötigt, um Webseiten möglichst
+    <a href="http://rubikon-seminare.com/webaccessibility/alternative-text/" target="_blank">barrierefrei</a>
+    darstellen zu können. Beschreibe das Bild möglichst genau.
+  en: >
+    The alternative text is required for images to meet
+    <a href="http://webaim.org/techniques/alttext" target="_blank">web
+    accessibility standards</a>. Enter a concise description of the image.

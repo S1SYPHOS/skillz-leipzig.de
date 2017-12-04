@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Synthikat
+
+----
+
+Portrait: synthikat.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

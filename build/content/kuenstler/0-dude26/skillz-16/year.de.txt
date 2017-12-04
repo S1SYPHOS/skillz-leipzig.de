@@ -1,0 +1,44 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Was du machst
+- 
+  category: Artwork
+  victory: "1"
+  web: ""
+  votes: ""
+  video: ""
+  text: 26 Sonnen
+
+----
+
+Seo: 

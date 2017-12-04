@@ -1,0 +1,40 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Banner: 
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Portrait: 
+
+----
+
+Tags: Artwork,Liveact,Track,Video,Album,Künstler
+
+----
+
+Awards: 
+
+- 
+  category: Künstler
+  votes: ""
+  web: ""
+  video: ""
+  text: ""

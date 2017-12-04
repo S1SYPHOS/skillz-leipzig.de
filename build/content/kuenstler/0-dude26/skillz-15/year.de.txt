@@ -1,0 +1,80 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '15
+
+----
+
+Portrait: dude26_zimmer26.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Awards: 
+
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Album
+  victory: "1"
+  web: >
+    https://dailyconcept.bandcamp.com/album/zimmer-26
+  votes: ""
+  video: ""
+  text: Zimmer 26
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Producer/Beatmaker
+  victory: "1"
+  web: ""
+  votes: ""
+  video: https://youtu.be/xGxg-nm8hdE
+  text: ""
+- 
+  category: Künstler
+  victory: "1"
+  web: ""
+  votes: ""
+  video: https://youtu.be/xRn1zNbQims
+  text: ""
+
+----
+
+Tab3: 
+
+----
+
+Seo: 

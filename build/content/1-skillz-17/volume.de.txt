@@ -1,0 +1,29 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '17
+
+----
+
+Banner: banner_skillz.jpg
+
+----
+
+Heading: Nominierungen SKILLZ '17
+
+----
+
+Nav-title: Künstler '17
+
+----
+
+Text: t.b.a.
+
+----
+
+Tab2: 
+
+----
+
+Seo: 

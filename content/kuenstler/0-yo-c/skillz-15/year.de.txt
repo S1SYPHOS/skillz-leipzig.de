@@ -1,0 +1,36 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '15
+
+----
+
+Tags: DJ,Künstler
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Portrait: 
+
+----
+
+Awards: 
+
+- 
+  category: DJ
+  votes: ""
+  web: ""
+  video: ""
+  text: ""

@@ -1,0 +1,73 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Tags: DJ,Künstler,Liveact,Track,Video
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Awards: 
+
+- 
+  category: Liveact
+  votes: ""
+  web: ""
+  video: https://youtu.be/IdqT2z3w-8c
+  text: '(mit Kritikal27 & Stylus MC)'
+  victory: "1"
+- 
+  category: Video
+  votes: ""
+  victory: "0"
+  web: ""
+  video: ""
+  text: Ansage Aussage (mit Sayes)
+- 
+  category: Track
+  votes: ""
+  victory: "0"
+  web: ""
+  video: https://youtu.be/m4TayW5sekI
+  text: 'DJ dørbystarr & da Posse - 15Y'
+- 
+  category: DJ
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 

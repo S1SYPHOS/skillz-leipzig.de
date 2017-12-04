@@ -1,0 +1,12 @@
+// Import the table styles for compiling
+@import 'config';
+@import 'mixins';
+
+// Custom breakpoints
+$bp-xsmall: 20em;
+$bp-small: 30em;
+$bp-medium: 47.938em;
+$bp-large: 60em;
+$bp-xlarge: 80em;
+
+@import 'components/astro';
