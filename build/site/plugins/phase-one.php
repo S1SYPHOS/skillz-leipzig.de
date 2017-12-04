@@ -60,8 +60,9 @@ function addToStructure($p, $field, $data = array()) {
 
     // build the email
     $email = email(array(
-      'to'      => 'm.folkers@posteo.de',
       'from'    => 'vorschlag@skillz-leipzig.de',
+      'to'      => 'award@skillz-leipzig.de',
+      'cc'      => 'hello@twobrain.io',
       'subject' => 'Neuer Vorschlag',
       // 'replyTo' => $data['email'],
       'body'    => $body
