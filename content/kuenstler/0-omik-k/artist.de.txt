@@ -1,0 +1,33 @@
+Tab1: 
+
+----
+
+Title: Omik K.
+
+----
+
+Portrait: omik_k.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Alt-title: 
+
+----
+
+Link: https://www.facebook.com/OffiziellOmikK
+
+----
+
+Embed: https://youtu.be/ThLIh8WV_DE

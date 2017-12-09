@@ -2,31 +2,11 @@ Tab1:
 
 ----
 
-Title: Jury
+Title: Jury '16
 
 ----
 
-Text: 
-
-Neben dem Publikum ist ein wichtiger Entscheidungsfaktor die gut selektiere Jury. So wird in Verbindung mit der Publikumsabstimmung die Entscheidung auf möglichst viele Köpfe verteilt. Im ersten Schritt werden in allen Kategorien Vorschläge für das Online-Voting gesammelt. Im zweiten Schritt stimmt das Publikum online im Voting ab. Die Künstler mit den meisten Stimmen werden für den Award nominiert. Die Finalisten werden dann von der Jury über ein Promopaket bewertet und deren Stimmen mit denen des Publikums verrechnet.
-
-(image: jury.jpg)
-
-## Lina Burghausen
-
-Lina war von 2008 bis 2015 Chefredakteurin vom Online-Magazin RapSpot. Dort hat sie werweißwieviele Rapper aus Deutschland / der ganzen Welt interviewt und mehr Rezensionen geschrieben als der Server gefasst hat. Seit 2014 hat sie die Musik-PR-Agentur MONA LINA gegründet. Hier betreut sie Künstler wie u.a. Teile des Funkverteidiger Clans, Fiva MC oder Masta Ace. Dazu ist sie seit 2015 Labelmanagerin von Catch The Beat – zusammen mit Falk Schacht. Ihr lernte sie bei ihrem Masterstudium „Medien und Musik“ an der HMTM Hannover kennen. Lina ist im Künstlermanagement tätig, war von 2009 bis 2012 in Leipzig am Start – kehrte dann im September 2015 zurück.
-
-## Hans-Jakob „Jake“ Völkel
-Jake ist 19’88 eingeborener Leipziger. Hier ist er als freier Journalist, Medientechniker & Musikproduzent für das 8ZWO7 Kollektiv. Seit 2015 ist er Gründer / Betreiber des RAP-Portals RAP CIRCUS und versucht die Bandbreite an Leipziger R A P abzubilden. Während seiner Studienjahre war er in Medientechnik aktiv mit den Schwerpunkten Audio Engineering / Journalismus / Online.
-
-## Downtown Lyrics
-Die Downtownlyrics Crew ist mit eines der ältesten aktiven HipHop Soundsysteme aus Leipzig mit DJ Malcolm, DJ Full Contact & MC Ramo. Seit 2000 ist das Soundspektrum zwischen amerikanisch, englisch und französigsprachigen Independent und Undergroundplatten. Gemischt wird das ganze mit Elementen aus Reggae, Dubstep, Grime, Global Bass, Tropical & Juke.
-
-## Julius „Jay One“ Stabenow
-Julius hat seinen ersten Rucksack mit „The Eminem Show“ / „8 Mile“ / „Aggro Berlin“ gepackt. Nach dem Versuch mit seinem eigenen Blog landete er auch bei RapSpot bis Ende 2015. Als er nach Halle Hood zog, gründete er mit DJ RUDboy und Kalm die Radioshow und Portal SALTY SOUNDZ. Als Jay One übernahm er dann den Part Moderation und Redaktion. Seit 2014 ist er für das JUICE Magazin als freier Autor tätig.
-
-## YO-C
-Josi Miller steht seit sie 16 Jahre alt ist hinter den Turntables. Bei einem DJ-Battle wurde ihre Welt wurde zur Scheibe, bei den deutschen National Finals des Red Bull Thre3style 2014 wurde sie Vizechamp. Ihre explosiven Mischung besteht aus urbanen Sounds und Rap Classics gepaart mit Trap. Sie war Support für Rapper Kid Ink, Rae Sremmurd, DJ Premier, A-Trak, & Waka Flocka Flame und tourt als DJ von Frauenarzt durchs Land. In der Radiosendung „deine Homegirls“ zeigt sie zusammen mit Helen Fares von Hiphop.de jeden 2. Samstag bei NRJ Sachsen ihre Liebe zur HipHop-Musik. Auch in verschiedenen Akustik Bands kommt ihre unverwechselbare Stimme zum Vorschein.
+Text: Neben dem Publikum ist ein wichtiger Entscheidungsfaktor die gut selektiere Jury. So wird in Verbindung mit der Publikumsabstimmung die Entscheidung auf möglichst viele Köpfe verteilt. Im ersten Schritt werden in allen Kategorien Vorschläge für das Online-Voting gesammelt. Im zweiten Schritt stimmt das Publikum online im Voting ab. Die Künstler mit den meisten Stimmen werden für den Award nominiert. Die Finalisten werden dann von der Jury über ein Promopaket bewertet und deren Stimmen mit denen des Publikums verrechnet.
 
 ----
 
@@ -39,3 +19,11 @@ Seo:
 ----
 
 Banner: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 

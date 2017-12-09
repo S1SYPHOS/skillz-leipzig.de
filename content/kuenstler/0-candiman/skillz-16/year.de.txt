@@ -1,0 +1,51 @@
+Tab1:
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait:
+
+----
+
+Heading:
+
+----
+
+Nav-title:
+
+----
+
+Text:
+
+----
+
+Awards:
+
+-
+  category: Album
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Lost Tape
+-
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+-
+  category: Liveact
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 'Akasha (mit BzumZ aka Barack Zobama & Synthikat)'
+
+----
+
+Seo:

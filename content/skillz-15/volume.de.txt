@@ -1,4 +1,4 @@
-Tab1: 
+Tab1:
 
 ----
 
@@ -6,7 +6,7 @@ Title: SKILLZ '15
 
 ----
 
-Banner: 
+Banner:
 
 ----
 
@@ -14,23 +14,23 @@ Text: **Anno 2016.** Lorem ipsum dolor sit amet, consectetur adipisicing elit, s
 
 ----
 
-Tab2: 
+Tab2:
 
 ----
 
-Seo: 
+Seo:
 
 ----
 
-Tags: 
+Tags:
 
 ----
 
-Awards: 
+Awards:
 
 ----
 
-Portrait: 
+Portrait:
 
 ----
 

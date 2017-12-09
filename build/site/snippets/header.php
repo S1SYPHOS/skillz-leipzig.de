@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="<?= $site->language() ?>">
 
   <?php snippet('head') ?>
 
@@ -19,9 +19,13 @@
         </a>
       </div>
       <div class="call-to-vote">
-        <a class="btn" href="<?php e($page->isHomePage(), '#start', 'https://voting.skillz-leipzig.de') ?>" >
+        <?php if ($page->isHomepage()) : ?>
+        <a class="btn" href="<?php e($page->isHomePage(), '#start', 'https://voting.skillz-leipzig.de') ?>">
           <?php e($page->isHomePage(), '&darr;', 'Jetzt Voten!') ?>
         </a>
+        <?php else : ?>
+        <button class="btn" disabled>Jetzt Voten!</button>
+        <?php endif ?>
       </div>
       <nav class="nav-wrap nav-collapse">
         <button class="nav-toggle" type="button" data-nav-toggle="#nav-menu">

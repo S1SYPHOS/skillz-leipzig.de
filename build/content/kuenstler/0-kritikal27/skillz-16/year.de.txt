@@ -40,7 +40,7 @@ Awards:
   victory: "0"
   web: ""
   votes: ""
-  video: ""
+  video: https://youtu.be/NfAfQyG6VVM
   text: 1000 Blaupausen
 - 
   category: Künstler

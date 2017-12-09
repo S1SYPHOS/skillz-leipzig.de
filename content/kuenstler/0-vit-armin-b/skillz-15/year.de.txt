@@ -1,0 +1,45 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '15
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Awards: 
+
+- 
+  category: Props aus Leipzig
+  victory: "1"
+  web: ""
+  votes: ""
+  video: https://youtu.be/8jX1lokJsso
+  text: ""
+
+----
+
+Tab3: 
+
+----
+
+Seo: 

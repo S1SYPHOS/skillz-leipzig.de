@@ -1,0 +1,72 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Kathedrale (mit Katharsis)
+- 
+  category: Producer/Beatmaker
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Sylvester (mit Katharsis)
+- 
+  category: Album
+  victory: "1"
+  web: ""
+  votes: ""
+  video: ""
+  text: Kathedrale (mit Katharsis)
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Junge Helden (mit Katharsis)
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Sylvester (mit Katharsis)
+
+----
+
+Seo: 

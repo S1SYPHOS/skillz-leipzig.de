@@ -19,8 +19,9 @@ Insgesamt gibt es zwölf Kategorien: Album / EP / Video / Track / Künstler / Pr
 
 ## Wie werden die Preisträger bestimmt?
 Die Bestimmung der Preisträger erfolgt in drei Schritten:
-Im ersten Schritt werden in allen Kategorien Vorschläge für das Online-Voting gesammelt.
-Im zweiten Schritt stimmt das Publikum online im Voting ab. Die Künstler mit den meisten Stimmen werden für den Award nominiert. Die Finalisten werden dann von einer kompetenten Jury bewertet, deren Stimmen mit denen des Publikums verrechnet werden.
+`#`01 Im ersten Schritt werden Vorschläge für das Online-Voting gesammelt.
+`#`02 Im zweiten Schritt stimmt das Publikum online im Voting ab. Die Künstler mit den meisten Stimmen werden für den Award nominiert. 
+\#03 Die Finalisten werden dann von einer kompetenten Jury bewertet, deren Stimmen mit denen des Publikums verrechnet werden.
 
 ## Warum gibt es eine Jury?
 In die Bestimmung der Preisträger ist eine Jury involviert, um für eine hohe Qualität des Preisvergabeverfahrens zu erreichen. In Verbindung mit der Publikumsabstimmung wird die Entscheidung auf möglichst viele Köpfe verteilt.
@@ -41,7 +42,7 @@ Publikumspreise werden in den Kategorien DJ, Liveact, Veranstaltung und „Props
 Organisatorenpreise werden in der Kategorie Punchline sowie in Form von zusätzlichen Sonderpreisen vergeben.
 
 ## Wann und wo findet die Gala statt?
-Die Untergrund-Gala findet am 18. März 2017 im Leipziger UT Connewitz, Wolfgang-Heinze-Str. 12a / 04277 Leipzig, statt.
+Die Untergrund-Gala findet am 17. Februar 2017 im Leipziger UT Connewitz, Wolfgang-Heinze-Str. 12a / 04277 Leipzig, statt.
 
 ## Was kann ich von der Gala erwarten?
 Die Untergrund-Gala ist eine moderierte Abendveranstaltung mit Preisverleihung und wechselnden Auftritten von Künstler aus der Szene.
@@ -53,7 +54,7 @@ Kiezkontor Ost (Zweinaundorfer Str. 1, 04318 Leipzig)
 & online auf TixforGigs.
 
 ## Wo gibt es noch mehr Informationen?
-Social Media: Facebook / Instagram oder kontaktiert uns persönlich.
+Social Media: (link: https://www.facebook.com/skillzleipzig/ text: Facebook popup: yes) / (link: https://www.instagram.com/skillzleipzig/ text: Instagram popup: yes) oder (email: award@skillz-leipzig.de text: kontaktiert uns persönlich).
 
 ## Wie bekomme ich Skills?
 Machen!

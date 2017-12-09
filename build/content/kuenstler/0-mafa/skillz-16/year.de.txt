@@ -71,7 +71,7 @@ Awards:
   victory: "0"
   web: ""
   votes: ""
-  video: ""
+  video: https://youtu.be/oa3S9QuRASE
   text: Peinlich Für 20 Mann
 
 ----

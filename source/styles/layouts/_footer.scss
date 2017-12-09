@@ -34,8 +34,6 @@ $footer-color: #FFF;
 
 
 .supporter {
-  background-image: url('/assets/images/footer/supporters.png');
-  background-repeat: no-repeat;
   display: block;
   transition: opacity $base-duration $base-timing;
 
@@ -46,39 +44,17 @@ $footer-color: #FFF;
   }
 
   .collective & {
+    background-image: url('/assets/images/footer/supporters.png');
+    background-repeat: no-repeat;
     width: 94px;
     height: 45px;
-  }
-
-  .companions & {
-    width: 83px;
-    height: 40px;
   }
 
   &.itsyours {
     background-position: 0 0;
   }
 
-  &.rapcircus {
-    background-position: 0 -45px;
-  }
-
   &.raputation {
     background-position: 0 -85px;
-  }
-
-  &.sinntraeger {
-    background-position: 0 -130px;
-    width: 119px;
-  }
-
-  &.rapde {
-    background-position: 0 -170px;
-    width: 109px;
-  }
-
-  &.backspin {
-    background-position: 0 -210px;
-    width: 89px;
   }
 }

@@ -38,6 +38,7 @@ Awards:
   web: ""
   video: ""
   text: ""
+  victory: "1"
 - 
   category: Liveact
   victory: "0"
@@ -64,7 +65,7 @@ Awards:
   victory: "0"
   web: ""
   votes: ""
-  video: ""
+  video: https://youtu.be/aZjqSCyOR9w
   text: Intro
 - 
   category: Track

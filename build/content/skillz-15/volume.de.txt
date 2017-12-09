@@ -1,4 +1,4 @@
-Tab1:
+Tab1: 
 
 ----
 
@@ -6,35 +6,39 @@ Title: SKILLZ '15
 
 ----
 
-Banner:
+Banner: 
 
 ----
 
-Text: **Anno 2016.** Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Text: 
+
+(image: lvz15.jpg)
+
+Hier findest du alle Nominierten aus dem Jahr 2015, die für den Skillz '16 am Start waren. Die Gewinner tragen eine goldene Krone, die Nominierungen sind rot gekennzeichnet.
 
 ----
 
-Tab2:
+Tab2: 
 
 ----
 
-Seo:
+Seo: 
 
 ----
 
-Tags:
+Tags: 
 
 ----
 
-Awards:
+Awards: 
 
 ----
 
-Portrait:
+Portrait: 
 
 ----
 
-Heading: Künstler SKILLZ '15
+Heading: SKILLZ '15
 
 ----
 

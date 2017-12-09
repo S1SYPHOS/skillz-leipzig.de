@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Kit Kut
+
+----
+
+Portrait: kitkut.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Props: 0

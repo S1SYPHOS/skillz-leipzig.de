@@ -1,0 +1,33 @@
+Tab1: 
+
+----
+
+Title: Tims Line
+
+----
+
+Portrait: tims_line.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Alt-title: 
+
+----
+
+Link: 
+
+----
+
+Embed: 

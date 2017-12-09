@@ -1,0 +1,65 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '15
+
+----
+
+Portrait: beppo-s_peter-b_still-und-heimlich.jpg
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: EP
+  victory: "1"
+  web: ""
+  votes: ""
+  video: ""
+  text: Still und Heimlich
+- 
+  category: Producer/Beatmaker
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: (Beppo S.)
+
+----
+
+Seo: 

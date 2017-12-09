@@ -1,3 +1,5 @@
+$_nav-toggle-padding: 0.5rem 1.125rem;
+
 .site-header {
   padding: 2em 0;
   background: url('/assets/images/dots.png') no-repeat center center, linear-gradient(to bottom, #250101 0%, #320200 25%, #250101 75%);
@@ -51,7 +53,7 @@
     .home & {
       position: absolute;
       bottom: 2em;
-      margin-left: -30.5px;
+      // margin-left: -30.5px;
       text-align: center;
     }
   }
@@ -80,6 +82,7 @@
   color: #fff;
   display: block;
   visibility: visible;
+  padding: $_nav-toggle-padding;
   z-index: $base-z-index + 100;
   position: relative;
   background: transparent !important;

@@ -1,0 +1,37 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '15
+
+----
+
+Portrait: 
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Awards: 
+
+- 
+  category: Liveact
+  victory: "1"
+  web: ""
+  votes: ""
+  video: https://youtu.be/k3LeAEtulUM
+  text: ""
+
+----
+
+Tab3: 
+
+----
+
+Seo: 

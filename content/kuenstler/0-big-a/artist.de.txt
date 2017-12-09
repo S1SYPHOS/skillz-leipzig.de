@@ -1,0 +1,33 @@
+Tab1: 
+
+----
+
+Title: Big A
+
+----
+
+Portrait: big_a.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Alt-title: 
+
+----
+
+Link: 
+
+----
+
+Embed: 

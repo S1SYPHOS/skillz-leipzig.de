@@ -20,7 +20,7 @@ $directionNext = @$flip ? 'left'  : 'right';
 $prevText = '.. the past';
 $nextText = 'the future ..';
 
-$template = $page->template();
+$template = $page->intendedTemplate();
 $volumes = $site->children()->filterBy('intendedTemplate', 'volume')->flip();
 
 

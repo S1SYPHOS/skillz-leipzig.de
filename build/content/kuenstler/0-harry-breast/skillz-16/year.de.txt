@@ -54,7 +54,7 @@ Awards:
   votes: ""
   victory: "0"
   web: ""
-  video: ""
+  video: https://youtu.be/pG9IX3Cl0JQ
   text: >
     Deutsch mich nicht voll (mit DJ
     FlashCAT)
@@ -77,7 +77,7 @@ Awards:
   votes: ""
   victory: "0"
   web: ""
-  video: ""
+  video: https://youtu.be/pG9IX3Cl0JQ
   text: >
     Deutsch mich nicht voll (mit DJ
     FlashCAT)

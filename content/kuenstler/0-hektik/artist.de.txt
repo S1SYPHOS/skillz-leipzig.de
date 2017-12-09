@@ -1,0 +1,33 @@
+Tab1: 
+
+----
+
+Title: Hektik
+
+----
+
+Portrait: hektik.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Alt-title: 
+
+----
+
+Link: 
+
+----
+
+Embed: 

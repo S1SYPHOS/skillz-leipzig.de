@@ -38,3 +38,72 @@ Awards:
   web: ""
   video: ""
   text: ""
+  victory: "1"
+- 
+  category: Liveact
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Album
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: "7030"
+- 
+  category: Artwork
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: "7030"
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: https://youtu.be/aZjqSCyOR9w
+  text: Intro
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Straßenballett
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: 'Trauerfeier (feat. Kalle & Emsick)'
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: >
+    Willkommen im Leipziger Süden (mit Tims
+    Line)
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: >
+    Willkommen im Leipziger Süden (mit Tims
+    Line)
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 

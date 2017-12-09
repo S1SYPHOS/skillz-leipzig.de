@@ -27,18 +27,10 @@ Awards:
 - 
   category: Liveact
   votes: ""
-  web: http://duckduckgo.com
-  video: >
-    https://www.youtube.com/watch?v=IdqT2z3w-8c
-  text: 'Beschreibung (Titel, wo & wann, ...)'
-  victory: "1"
-- 
-  category: Video
-  votes: ""
-  victory: "0"
   web: ""
-  video: ""
-  text: 'Sayes - Ansage Aussage mit DJ dørbystarr'
+  video: https://youtu.be/IdqT2z3w-8c
+  text: '(mit Kritikal27 & Stylus MC)'
+  victory: "1"
 - 
   category: Track
   votes: ""
@@ -46,6 +38,27 @@ Awards:
   web: ""
   video: https://youtu.be/m4TayW5sekI
   text: 'DJ dørbystarr & da Posse - 15Y'
+- 
+  category: DJ
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Video
+  votes: ""
+  victory: "0"
+  web: ""
+  video: ""
+  text: Ansage Aussage (mit Sayes)
 
 ----
 

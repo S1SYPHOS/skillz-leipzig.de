@@ -1,0 +1,33 @@
+Tab1: 
+
+----
+
+Title: Kalle
+
+----
+
+Portrait: kalle_und_emsick.jpg
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 
+
+----
+
+Alt-title: 
+
+----
+
+Link: 
+
+----
+
+Embed: 

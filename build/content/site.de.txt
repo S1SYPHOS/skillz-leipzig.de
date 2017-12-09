@@ -266,21 +266,25 @@ Footer:
 
 ----
 
-Mail: award@skillz-leipzig.de
+Send-mail: award@skillz-leipzig.de
 
 ----
 
 Voting: 
 
+----
+
+Sponsors: 
+
 - 
-  title: Tony Dancer
-  category: Künstler
-  text: 'der rockt einfach - kudos!'
+  title: Rapcircus
+  logo: 02-rapcircus.png
+  web: http://www.rapcircus.de
 - 
-  title: Etogate, Defcon,
-  category: Artwork
-  text: boom baby
+  title: Sinnträger
+  logo: 04-sinntraeger.png
+  web: http://www.sinntraeger.com
 - 
-  title: DJ Saibz, Defcon,
-  category: Artwork
-  text: ""
+  title: Rap.de
+  logo: 05-rapde.png
+  web: http://rap.de

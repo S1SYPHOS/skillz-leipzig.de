@@ -1,0 +1,25 @@
+Tab1: 
+
+----
+
+Title: Der Täubling
+
+----
+
+Portrait: der-taubling.jpg
+
+----
+
+Props: 0
+
+----
+
+Text: 
+
+----
+
+Tab2: 
+
+----
+
+Seo: 

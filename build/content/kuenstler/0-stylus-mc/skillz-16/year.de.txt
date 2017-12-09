@@ -47,14 +47,14 @@ Awards:
   victory: "0"
   web: ""
   votes: ""
-  video: ""
+  video: https://youtu.be/bCmwUoWMvTk
   text: The O.U.S
 - 
   category: Track
   victory: "0"
   web: ""
   votes: ""
-  video: ""
+  video: https://youtu.be/bCmwUoWMvTk
   text: The O.U.S
 - 
   category: Track

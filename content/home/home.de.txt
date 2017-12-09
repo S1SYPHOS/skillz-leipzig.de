@@ -4,9 +4,14 @@ Title: Startseite
 
 Text: 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+## 2017 – DIE GEWINNER FÜR DEN SKILLZ ’16
+<br>
+<h2 style="text-align: center;">Artwork ’16: Dude26 „26 Sonnen“<br> <span style="color: #252d25;">EP ’16: Hektik x Siriuz x Rato „Leuchtfeuer EP“</span><br> Video ’16: Sen „Wunderland“<br> <span style="color: #252d25;">Liveact ’16: Stylus MC &amp; Kritikal27 &amp; DJ dørbystarr</span><br> Album ’16: Katharsis &amp; HeMightBe „Kathedrale“<br> <span style="color: #252d25;">Track ’16: Gossenboss mit Zett „Bitterfeld“</span><br> Producer ’16: Defekto<br> <span style="color: #252d25;">DJ ’16: YO-C</span><br> Veranstaltung ’16: Projekt Santa<br> <span style="color: #252d25;">Künstler ’16: MCE</span><br> Props aus Leipzig ’16: Morlockk Dilemma<br> <span style="color: #252d25;">Punchline ’16: Defcon „Ragemode“</span></h2>
+<br>
+<h3 style="text-align: center;"><em>„Ich versuch‘ aus Spaß auf lateinisch zu freestylen und beschwöre ein‘ Dämon, der aus dem Boden kommt und deine Mutter fickt.“<br> </em></h3>
+<br>
 
-(youtube: https://www.youtube.com/watch?v=JzAHqN2jgnw)
+(embed: https://www.youtube.com/watch?v=JzAHqN2jgnw)
 
 **Bleibt sportlich!**
 

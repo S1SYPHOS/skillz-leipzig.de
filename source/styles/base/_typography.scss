@@ -79,3 +79,11 @@ hr {
     display: none;
   }
 }
+
+.show-medium-up {
+  display: none;
+  
+  @include min-width(medium) {
+    display: block;
+  }
+}

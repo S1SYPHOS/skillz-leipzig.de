@@ -34,4 +34,40 @@ Awards:
   victory: "1"
   web: ""
   video: ""
+  text: '(mit Kritikal27 & DJ dørbystarr)'
+- 
+  category: Künstler
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
   text: ""
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: https://youtu.be/bCmwUoWMvTk
+  text: The O.U.S
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: https://youtu.be/bCmwUoWMvTk
+  text: The O.U.S
+- 
+  category: Track
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Realität
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 

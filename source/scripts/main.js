@@ -86,21 +86,7 @@ $(document).ready(function() {
     ajax.onload = function() {
       var input = document.getElementById('awesomplete');
       var list = JSON.parse(ajax.responseText).map(function(i) { return i.title; });
-      new Awesomplete(input, {
-        list: list,
-        filter: function(text, input) {
-          return Awesomplete.FILTER_CONTAINS(text, input.match(/[^,]*$/)[0]);
-        },
-
-        item: function(text, input) {
-          return Awesomplete.ITEM(text, input.match(/[^,]*$/)[0]);
-        },
-
-        replace: function(text) {
-          var before = this.input.value.match(/^.+,\s*|/)[0];
-          this.input.value = before + text + ", ";
-        }
-      });
+      new Awesomplete(input, { list: list });
     };
     ajax.send();
   }

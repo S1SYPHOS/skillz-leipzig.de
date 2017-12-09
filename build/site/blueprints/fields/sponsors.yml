@@ -1,0 +1,22 @@
+label: Supporter
+type: structure
+modalsize: large
+entry: >
+  <img src="/content/{{logo}}"><br>
+  <b>{{title}}</b>
+fields:
+  title:
+    label: Supporter
+    type: text
+    width: 1/2
+    required: true
+  logo:
+    label: Logo
+    type: quickselect
+    options: images
+    width: 1/2
+    required: true
+  web:
+    label: Link
+    type: url
+    required: true

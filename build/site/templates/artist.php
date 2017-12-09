@@ -52,16 +52,15 @@
         $portrait = $page->parent()->placeholder()->toFile();
       }
     ?>
-    <figure class="image">
+    <figure class="image show-medium-up">
       <?= thumb($portrait, array(
         'width' => 300,
         'crop' => true,
         'quality' => 85));
       ?>
     </figure>
-    <?= $page->text()->kt() ?>
     <?php if ($page->link()->isNotEmpty()) : ?>
-    <p>Informationen zu <?php e($page->alt_title()->isNotEmpty(), $page->alt_title()->html(), $page->title()->html()) ?> - dies, das & verschiedene Dinge gibt's <a href="<?= $page->link() ?>" target="_blank">hier</a>.</p>
+    <p class="centered">Informationen zu <?php e($page->alt_title()->isNotEmpty(), $page->alt_title()->html(), $page->title()->html()) ?> - dies, das & verschiedene Dinge gibt's <a href="<?= $page->link() ?>" target="_blank">hier</a>.</p>
     <?php endif ?>
   </div>
 </div>

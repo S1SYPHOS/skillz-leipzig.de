@@ -48,21 +48,21 @@ fields:
   title:
     label: Title
     type:  text
-    width: 2/3
+    width: 1/2
   banner:
     label: Banner
     type: quickselect
     options: images
     help: → optional
-    width: 1/3
+    width: 1/2
   heading:
     label: Überschrift
     type: text
-    width: 2/3
+    width: 1/2
   nav_title:
     label: Navigation
     type: text
-    width: 1/3
+    width: 1/2
   text:
     label: Text
     type:  textarea

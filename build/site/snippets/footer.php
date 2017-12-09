@@ -11,7 +11,7 @@
                 <li><a href="<?= $item->link() ?>" target="_blank"><?= $item->title()->html() ?></a></li>
                 <?php endforeach ?>
                 <?php
-                  $excluded = array(page('home'), page('error'), page('api'), page('kuenstler'), page('skillz-15'));
+                  $excluded = array(page('home'), page('error'), page('api'), page('kuenstler'), page('skillz-15'), page('danke'));
                   $menuItems = $pages->invisible()->not($excluded);
                   foreach ($menuItems as $item) :
                 ?>
@@ -30,12 +30,11 @@
                 </ul>
               </div>
               <div class="companions">
-                <p>Companions:</p>
+                <p>Compagnons:</p>
                 <ul>
-                  <li><a class="supporter rapcircus" href="http://www.rapcircus.de" target="_blank"></a></li>
-                  <li><a class="supporter sinntraeger" href="http://www.sinntraeger.com" target="_blank"></a></li>
-                  <li><a class="supporter rapde" href="http://rap.de/" target="_blank"></a></li>
-                  <li><a class="supporter backspin" href="http://www.backspin.de/" target="_blank"></a></li>
+                  <?php foreach ($site->sponsors()->toStructure() as $sponsor) : ?>
+                    <li><a class="supporter" href="<?= $sponsor->web() ?>" title="<?= $sponsor->title()->html() ?>" target="_blank"><img src="<?= $sponsor->logo()->toFile()->url() ?>"></a></li>
+                  <?php endforeach?>
                 </ul>
               </div>
             </div>

@@ -2,6 +2,8 @@
 
 <h1><?php e($page->heading()->isNotEmpty(), $page->heading()->html(), $page->title()->html()) ?></h1>
 
+<?php snippet('components/banner', $page) ?>
+
 <?= $page->text()->kt() ?>
 
 <?php if ($page->stages() == 'phase1') : ?><?= $page->phase1()->kt() ?><?php snippet('components/livesearch', compact('data')) ?>

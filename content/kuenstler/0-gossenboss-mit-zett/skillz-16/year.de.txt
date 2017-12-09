@@ -1,0 +1,51 @@
+Tab1: 
+
+----
+
+Title: SKILLZ '16
+
+----
+
+Portrait: 
+
+----
+
+Heading: 
+
+----
+
+Nav-title: 
+
+----
+
+Text: 
+
+----
+
+Awards: 
+
+- 
+  category: Liveact
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: ""
+- 
+  category: Video
+  victory: "0"
+  web: ""
+  votes: ""
+  video: ""
+  text: Stadt (mit Degenhardt)
+- 
+  category: Track
+  victory: "1"
+  web: ""
+  votes: ""
+  video: ""
+  text: Bitterfeld
+
+----
+
+Seo: 
